@@ -1,13 +1,19 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+import tailwindcss from '@tailwindcss/vite'
+
 export default defineNuxtConfig({
   // https://nuxt.com/modules
   modules: [
     '@nuxthub/core',
     '@nuxt/eslint',
+    '@nuxt/ui',
+    '@nuxt/fonts',
   ],
 
   // https://devtools.nuxt.com
   devtools: { enabled: true },
+
+  css: ['~~/assets/css/main.css'],
 
   // Env variables - https://nuxt.com/docs/getting-started/configuration#environment-variables-and-private-tokens
   runtimeConfig: {
@@ -23,12 +29,24 @@ export default defineNuxtConfig({
   // https://hub.nuxt.com/docs/getting-started/installation#options
   hub: {},
 
+  vite: {
+    plugins: [
+      tailwindcss(),
+    ],
+  },
+
   // https://eslint.nuxt.com
   eslint: {
     config: {
       stylistic: {
         quotes: 'single',
       },
+    },
+  },
+
+  fonts: {
+    experimental: {
+      processCSSVariables: true,
     },
   },
 })
