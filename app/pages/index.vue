@@ -12,17 +12,12 @@ function hasLabel(item: InputMenuItem): item is Exclude<InputMenuItem, { type: '
   return 'label' in item
 }
 
-// Get our full list of items (Routes, Pokémon, Trainers, etc.)
 const { items, isLoading } = useInputLabels()
 
-// v-model for the selected item (or whatever UInputMenu expects)
 const selectedItem = ref<InputMenuItem | null>(null)
 
-// Create a separate reactive property for the search input
-// (Assuming UInputMenu supports binding its search text via v-model:search or similar)
 const searchQuery = ref('')
 
-// Instead of a hacky replacement function, use encodeURIComponent
 const getPokemonUrl = (label: string) => {
   if (label === 'Type: Null') label = 'Type-Null'
   if (label === 'Zygarde-10%') label = 'Zygarde-10'
@@ -32,8 +27,6 @@ const getPokemonUrl = (label: string) => {
   return label
 }
 
-// Create a computed property that filters the list based on the search query.
-// When there is no query, return the full list.
 const filteredItems = computed(() => {
   if (!searchQuery.value.trim()) return items.value
 

@@ -24,20 +24,21 @@ function createTrainerLabels(): InputMenuItem[] {
 }
 
 async function createPokemonLabels(): Promise<InputMenuItem[]> {
-  const { data, error } = await useFetch<{ success: boolean, data: PokemonSchema[] }>('/api/parse/pokedex')
-  console.log(data)
-  if (error.value) {
-    console.error('Failed to load pokedex data:', error.value)
+  try {
+    const response = await $fetch<{ success: boolean, data: PokemonSchema[] }>('/api/parse/pokedex')
+    if (response.success) {
+      return response.data.map(pokemon => ({
+        type: 'pokemon',
+        label: pokemon.name,
+      }))
+    }
+    console.error('Invalid pokedex data format', response)
     return []
   }
-  if (data.value?.success) {
-    return data.value.data.map(pokemon => ({
-      type: 'pokemon',
-      label: pokemon.name,
-    }))
+  catch (error) {
+    console.error('Failed to load pokedex data:', error)
+    return []
   }
-  console.error('Invalid pokedex data format', data.value)
-  return []
 }
 
 export function useInputLabels() {
