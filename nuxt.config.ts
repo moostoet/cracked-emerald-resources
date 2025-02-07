@@ -3,17 +3,22 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineNuxtConfig({
   // https://nuxt.com/modules
-  modules: [
-    '@nuxthub/core',
-    '@nuxt/eslint',
-    '@nuxt/ui',
-    '@nuxt/fonts',
-  ],
+  modules: ['@nuxthub/core', '@nuxt/eslint', '@nuxt/ui', '@nuxt/fonts', '@nuxt/image'],
 
   // https://devtools.nuxt.com
   devtools: { enabled: true },
 
+  app: {
+    pageTransition: { name: 'page', mode: 'out-in' },
+  },
+
   css: ['~~/assets/css/main.css'],
+
+  ui: {
+    theme: {
+      colors: ['primary', 'secondary', 'info', 'success', 'warning', 'error'],
+    },
+  },
 
   // Env variables - https://nuxt.com/docs/getting-started/configuration#environment-variables-and-private-tokens
   runtimeConfig: {

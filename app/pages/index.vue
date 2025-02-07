@@ -1,11 +1,14 @@
 <script setup lang="ts">
+import { test } from 'effect/Logger'
 import { useInputLabels } from '~~/composables/UseInputLabels'
+
+const router = useRouter()
 
 type InputMenuItem =
   | { type: 'label', label: string }
   | { type: 'separator' }
   | { type: 'route', label: string }
-  | { type: 'pokemon', label: string }
+  | { type: 'pokemon', label: string, id: number }
   | { type: 'trainer', label: string }
 
 function hasLabel(item: InputMenuItem): item is Exclude<InputMenuItem, { type: 'separator' }> {
@@ -14,7 +17,7 @@ function hasLabel(item: InputMenuItem): item is Exclude<InputMenuItem, { type: '
 
 const { items, isLoading } = useInputLabels()
 
-const selectedItem = ref<InputMenuItem | null>(null)
+const selectedItem = ref<InputMenuItem>()
 
 const searchQuery = ref('')
 
@@ -33,43 +36,45 @@ const filteredItems = computed(() => {
   const lowerQuery = searchQuery.value.toLowerCase()
   return items.value.filter(item => hasLabel(item) && item.label.toLowerCase().includes(lowerQuery))
 })
+
+watch(selectedItem, (newVal) => {
+  if (newVal?.type === 'pokemon') router.push(`pokemon/${newVal.id}`)
+})
 </script>
 
 <template>
-  <div class="centered max-w-2xl w-full mx-auto space-y-3">
-    <p class="title font-display text-4xl w-full">
-      Pokémon <span class="font-bold text-green-500">Cracked Emerald</span> Resources
-    </p>
-    <UInputMenu
-      v-model="selectedItem"
-      v-model:search="searchQuery"
-      :items="filteredItems"
-      placeholder="Search for resources..."
-      class="w-full"
-      size="xl"
-      icon="i-lucide-search"
-      :loading="isLoading"
-    >
-      <template #item-leading="{ item }">
-        <UIcon v-if="item.type === 'route'" class="text-green-500" name="i-lucide-map" />
-        <img v-if="item.type === 'pokemon'" loading="lazy" :src="`/pokemon/${getPokemonUrl(item.label)}.png`" alt=" ">
-        <UIcon v-if="item.type === 'trainer'" class="text-green-500" name="mdi-pokeball" />
-      </template>
-    </UInputMenu>
+  <div class="h-screen flex flex-col justify-center items-center">
+    <div class="max-w-2xl space-y-3">
+      <p class="title font-display text-4xl w-full">
+        Pokémon <span class="font-bold text-green-500">Cracked Emerald</span> Resources
+      </p>
+      <UInputMenu
+        v-model="selectedItem"
+        v-model:search="searchQuery"
+        :items="filteredItems"
+        placeholder="Search for resources..."
+        class="w-full"
+        size="xl"
+        icon="i-lucide-search"
+        :loading="isLoading"
+        @change="test"
+      >
+        <template #item-leading="{ item }">
+          <UIcon v-if="item.type === 'route'" class="text-green-500" name="i-lucide-map" />
+          <img v-if="item.type === 'pokemon'" loading="lazy" :src="`/pokemon/${getPokemonUrl(item.label)}.png`" alt=" ">
+          <UIcon v-if="item.type === 'trainer'" class="text-green-500" name="mdi-pokeball" />
+        </template>
+        <template #item-trailing="{ item }">
+          <p v-if="item.type === 'pokemon'" class="opacity-50 font-semibold text-xs">
+            {{ item.id }}
+          </p>
+        </template>
+      </UInputMenu>
+    </div>
   </div>
 </template>
 
 <style scoped>
-.centered {
-  position: absolute;
-  width: 100%;
-  text-align: center;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  margin: 0;
-}
-
 h1 {
   font-size: 32px;
 }
