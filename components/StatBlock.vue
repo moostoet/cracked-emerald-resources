@@ -3,7 +3,6 @@
     <p class="w-28 text-right">
       {{ text }}
     </p>
-    <!-- Replacing UProgress with a div-based progress bar -->
     <div class="w-128 h-6 bg-gray-200 rounded-full dark:bg-gray-700">
       <div
         class="h-6 rounded-full"
@@ -11,7 +10,7 @@
         :style="{ width: computeProgressWidth(currentValue) }"
       />
     </div>
-    <p class="absolute right-36 text-xs">
+    <p class="absolute right-2 text-xs">
       {{ currentValue }}
     </p>
   </div>

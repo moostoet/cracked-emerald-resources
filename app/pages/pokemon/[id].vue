@@ -1,6 +1,6 @@
 <template>
   <div class="h-screen flex justify-center items-center">
-    <div v-if="currentMon" class="font-display w-3xl max-w-4xl">
+    <div v-if="currentMon" class="font-display max-w-6xl">
       <UIcon name="material-symbols:arrow-left-alt-rounded" class="size-6 hover:text-green-500 transition cursor-pointer" @click="router.push('/')" />
       <div class="flex gap-3 items-center">
         <p class="text-xl font-bold">
@@ -62,11 +62,19 @@
             </div>
           </div>
         </div>
-        <div>
-          <p class="text-sm font-bold">
-            BASE STATS
-          </p>
-          <PokemonBaseStats :stats="currentMon.base" />
+        <div class="grid grid-cols-2 space-x-6">
+          <div>
+            <p class="text-sm font-bold">
+              BASE STATS
+            </p>
+            <PokemonBaseStats :stats="currentMon.base" />
+          </div>
+          <div>
+            <p class="text-sm font-bold">
+              LEVEL-UP MOVES (WIP)
+            </p>
+            <LevelUpMoveTable />
+          </div>
         </div>
       </div>
     </div>
@@ -74,6 +82,7 @@
 </template>
 
 <script lang="ts" setup>
+import LevelUpMoveTable from '~~/components/LevelUpMoveTable.vue'
 import PokemonBaseStats from '~~/components/PokemonBaseStats.vue'
 import PokemonType from '~~/components/PokemonType.vue'
 import { usePokedex } from '~~/composables/usePokedex'
