@@ -27,7 +27,7 @@
               ABILITIES
             </p>
             <p v-for="(ability, index) in currentMon.profile.ability" :key="ability" class="text-sm flex items-center gap-1">
-              <span v-if="index === 2" class="font-bold text-xs">(HIDDEN)</span>
+              <span v-if="index === 2 && ability !== 'None'" class="font-bold text-xs">(HIDDEN)</span>
               {{ ability === 'None' ? '---' : ability }}
             </p>
           </div>
@@ -85,6 +85,10 @@ const router = useRouter()
 const { fetchPokemon, pokemon, findPokemonById } = usePokedex()
 
 const currentMon = ref<PokemonSchema>()
+
+const filteredAbilities = computed(() => {
+  return currentMon.value?.profile.ability.filter(ability => ability !== 'None') || []
+})
 
 onMounted(async () => {
   await fetchPokemon()

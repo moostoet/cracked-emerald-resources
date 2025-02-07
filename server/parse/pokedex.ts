@@ -14,7 +14,12 @@ const baseStatsSchema = z.object({
 // It might contain a "next" property as an array of [string, string] tuples,
 // but it can also be empty.
 const evolutionSchema = z.object({
-  next: z.array(z.tuple([z.string(), z.string()])).optional(),
+  next: z.array(
+    z.union([
+      z.tuple([z.string(), z.string()]),
+      z.tuple([z.string(), z.string(), z.string()]),
+    ]),
+  ).optional(),
 })
 
 // Schema for the "profile" object.

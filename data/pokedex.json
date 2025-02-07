@@ -1209,7 +1209,15 @@
       "Speed": 60
     },
     "species": "Tiny Mouse",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "36",
+          "EVO_FRIENDSHIP",
+          "0"
+        ]
+      ]
+    },
     "profile": {
       "height": "0.3 m",
       "weight": "2.0 kg",
@@ -1925,7 +1933,15 @@
       "Speed": 40
     },
     "species": "Mouse",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "57",
+          "EVO_ITEM",
+          "ITEM_ICE_STONE"
+        ]
+      ]
+    },
     "profile": {
       "height": "0.7 m",
       "weight": "40.0 kg",
@@ -2030,7 +2046,15 @@
       "Speed": 56
     },
     "species": "Poison Pin",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "60",
+          "EVO_ITEM",
+          "ITEM_MOON_STONE"
+        ]
+      ]
+    },
     "profile": {
       "height": "0.8 m",
       "weight": "20.0 kg",
@@ -2135,7 +2159,15 @@
       "Speed": 65
     },
     "species": "Poison Pin",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "63",
+          "EVO_ITEM",
+          "ITEM_MOON_STONE"
+        ]
+      ]
+    },
     "profile": {
       "height": "0.9 m",
       "weight": "19.5 kg",
@@ -2200,7 +2232,15 @@
       "Speed": 15
     },
     "species": "Star Shape",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "65",
+          "EVO_FRIENDSHIP",
+          "0"
+        ]
+      ]
+    },
     "profile": {
       "height": "0.3 m",
       "weight": "3.0 kg",
@@ -2230,7 +2270,15 @@
       "Speed": 35
     },
     "species": "Fairy",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "66",
+          "EVO_ITEM",
+          "ITEM_MOON_STONE"
+        ]
+      ]
+    },
     "profile": {
       "height": "0.6 m",
       "weight": "7.5 kg",
@@ -2292,7 +2340,15 @@
       "Speed": 65
     },
     "species": "Fox",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "68",
+          "EVO_ITEM",
+          "ITEM_FIRE_STONE"
+        ]
+      ]
+    },
     "profile": {
       "height": "0.6 m",
       "weight": "9.9 kg",
@@ -2356,7 +2412,15 @@
       "Speed": 65
     },
     "species": "Fox",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "70",
+          "EVO_ITEM",
+          "ITEM_ICE_STONE"
+        ]
+      ]
+    },
     "profile": {
       "height": "0.6 m",
       "weight": "9.9 kg",
@@ -2419,7 +2483,15 @@
       "Speed": 15
     },
     "species": "Balloon",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "72",
+          "EVO_FRIENDSHIP",
+          "0"
+        ]
+      ]
+    },
     "profile": {
       "height": "0.3 m",
       "weight": "1.0 kg",
@@ -2449,7 +2521,15 @@
       "Speed": 20
     },
     "species": "Balloon",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "73",
+          "EVO_ITEM",
+          "ITEM_MOON_STONE"
+        ]
+      ]
+    },
     "profile": {
       "height": "0.5 m",
       "weight": "5.5 kg",
@@ -2552,7 +2632,15 @@
       "Speed": 90
     },
     "species": "Bat",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "76",
+          "EVO_FRIENDSHIP",
+          "0"
+        ]
+      ]
+    },
     "profile": {
       "height": "1.6 m",
       "weight": "55.0 kg",
@@ -3117,7 +3205,15 @@
       "Speed": 90
     },
     "species": "Scratch Cat",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "92",
+          "EVO_FRIENDSHIP",
+          "0"
+        ]
+      ]
+    },
     "profile": {
       "height": "0.4 m",
       "weight": "4.2 kg",
@@ -3365,7 +3461,15 @@
       "Speed": 95
     },
     "species": "Pig Monkey",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "99",
+          "EVO_USE_MOVE_TWENTY_TIMES",
+          "MOVE_RAGE_FIST"
+        ]
+      ]
+    },
     "profile": {
       "height": "1.0 m",
       "weight": "32.0 kg",
@@ -3430,7 +3534,15 @@
       "Speed": 60
     },
     "species": "Puppy",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "101",
+          "EVO_ITEM",
+          "ITEM_FIRE_STONE"
+        ]
+      ]
+    },
     "profile": {
       "height": "0.7 m",
       "weight": "19.0 kg",
@@ -3495,7 +3607,15 @@
       "Speed": 55
     },
     "species": "Scout",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "103",
+          "EVO_ITEM",
+          "ITEM_FIRE_STONE"
+        ]
+      ]
+    },
     "profile": {
       "height": "0.8 m",
       "weight": "22.7 kg",
@@ -3975,7 +4095,15 @@
       "Speed": 55
     },
     "species": "Flycatcher",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "117",
+          "EVO_ITEM",
+          "ITEM_LEAF_STONE"
+        ]
+      ]
+    },
     "profile": {
       "height": "1.0 m",
       "weight": "6.4 kg",
@@ -4845,7 +4973,15 @@
       "Speed": 55
     },
     "species": "Wild Duck",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "142",
+          "EVO_CRITICAL_HITS",
+          "3"
+        ]
+      ]
+    },
     "profile": {
       "height": "0.8 m",
       "weight": "42.0 kg",
@@ -5202,7 +5338,15 @@
       "Speed": 40
     },
     "species": "Bivalve",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "152",
+          "EVO_ITEM",
+          "ITEM_WATER_STONE"
+        ]
+      ]
+    },
     "profile": {
       "height": "0.3 m",
       "weight": "4.0 kg",
@@ -5715,7 +5859,15 @@
       "Speed": 100
     },
     "species": "Sphere",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "167",
+          "EVO_ITEM",
+          "ITEM_LEAF_STONE"
+        ]
+      ]
+    },
     "profile": {
       "height": "0.5 m",
       "weight": "13.0 kg",
@@ -6137,7 +6289,15 @@
       "Speed": 30
     },
     "species": "Licking",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "180",
+          "EVO_MOVE",
+          "MOVE_ROLLOUT"
+        ]
+      ]
+    },
     "profile": {
       "height": "1.2 m",
       "weight": "65.5 kg",
@@ -6439,7 +6599,15 @@
       "Speed": 50
     },
     "species": "Egg",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "189",
+          "EVO_FRIENDSHIP",
+          "0"
+        ]
+      ]
+    },
     "profile": {
       "height": "1.1 m",
       "weight": "34.6 kg",
@@ -6503,7 +6671,15 @@
       "Speed": 60
     },
     "species": "Vine",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "191",
+          "EVO_MOVE",
+          "MOVE_ANCIENT_POWER"
+        ]
+      ]
+    },
     "profile": {
       "height": "1.0 m",
       "weight": "35.0 kg",
@@ -6809,7 +6985,15 @@
       "Speed": 85
     },
     "species": "Star Shape",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "200",
+          "EVO_ITEM",
+          "ITEM_WATER_STONE"
+        ]
+      ]
+    },
     "profile": {
       "height": "0.8 m",
       "weight": "34.5 kg",
@@ -8425,7 +8609,15 @@
       "Speed": 5
     },
     "species": "Big Eater",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "248",
+          "EVO_FRIENDSHIP",
+          "0"
+        ]
+      ]
+    },
     "profile": {
       "height": "0.6 m",
       "weight": "105.0 kg",
@@ -9657,7 +9849,15 @@
       "Speed": 20
     },
     "species": "Spike Ball",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "283",
+          "EVO_FRIENDSHIP",
+          "0"
+        ]
+      ]
+    },
     "profile": {
       "height": "0.3 m",
       "weight": "1.5 kg",
@@ -9690,7 +9890,15 @@
       "Speed": 40
     },
     "species": "Happiness",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "284",
+          "EVO_ITEM",
+          "ITEM_SHINY_STONE"
+        ]
+      ]
+    },
     "profile": {
       "height": "0.6 m",
       "weight": "3.2 kg",
@@ -9978,7 +10186,15 @@
       "Speed": 20
     },
     "species": "Polka Dot",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "292",
+          "EVO_FRIENDSHIP",
+          "0"
+        ]
+      ]
+    },
     "profile": {
       "height": "0.2 m",
       "weight": "2.0 kg",
@@ -10086,7 +10302,15 @@
       "Speed": 10
     },
     "species": "Bonsai",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "295",
+          "EVO_MOVE",
+          "MOVE_MIMIC"
+        ]
+      ]
+    },
     "profile": {
       "height": "0.5 m",
       "weight": "15.0 kg",
@@ -10267,7 +10491,15 @@
       "Speed": 85
     },
     "species": "Long Tail",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "300",
+          "EVO_MOVE",
+          "MOVE_DOUBLE_HIT"
+        ]
+      ]
+    },
     "profile": {
       "height": "0.8 m",
       "weight": "11.5 kg",
@@ -10331,7 +10563,15 @@
       "Speed": 30
     },
     "species": "Seed",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "302",
+          "EVO_ITEM",
+          "ITEM_SUN_STONE"
+        ]
+      ]
+    },
     "profile": {
       "height": "0.3 m",
       "weight": "1.8 kg",
@@ -10396,7 +10636,15 @@
       "Speed": 95
     },
     "species": "Clear Wing",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "304",
+          "EVO_MOVE",
+          "MOVE_ANCIENT_POWER"
+        ]
+      ]
+    },
     "profile": {
       "height": "1.2 m",
       "weight": "38.0 kg",
@@ -10612,7 +10860,15 @@
       "Speed": 91
     },
     "species": "Darkness",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "310",
+          "EVO_ITEM",
+          "ITEM_DUSK_STONE"
+        ]
+      ]
+    },
     "profile": {
       "height": "0.5 m",
       "weight": "2.1 kg",
@@ -10677,7 +10933,15 @@
       "Speed": 85
     },
     "species": "Screech",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "312",
+          "EVO_ITEM",
+          "ITEM_DUSK_STONE"
+        ]
+      ]
+    },
     "profile": {
       "height": "0.7 m",
       "weight": "1.0 kg",
@@ -10845,7 +11109,15 @@
       "Speed": 85
     },
     "species": "Long Neck",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "317",
+          "EVO_MOVE",
+          "MOVE_TWIN_BEAM"
+        ]
+      ]
+    },
     "profile": {
       "height": "1.5 m",
       "weight": "41.5 kg",
@@ -11251,7 +11523,15 @@
       "Speed": 85
     },
     "species": "Balloon",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "329",
+          "EVO_MOVE",
+          "MOVE_BARB_BARRAGE"
+        ]
+      ]
+    },
     "profile": {
       "height": "0.5 m",
       "weight": "3.9 kg",
@@ -11797,7 +12077,15 @@
       "Speed": 50
     },
     "species": "Swine",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "345",
+          "EVO_MOVE",
+          "MOVE_ANCIENT_POWER"
+        ]
+      ]
+    },
     "profile": {
       "height": "1.1 m",
       "weight": "55.8 kg",
@@ -12077,7 +12365,15 @@
       "Speed": 50
     },
     "species": "Kite",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "353",
+          "EVO_SPECIFIC_MON_IN_PARTY",
+          "SPECIES_REMORAID"
+        ]
+      ]
+    },
     "profile": {
       "height": "1.0 m",
       "weight": "65.0 kg",
@@ -12352,7 +12648,15 @@
       "Speed": 85
     },
     "species": "Big Horn",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "361",
+          "EVO_USE_MOVE_TWENTY_TIMES",
+          "MOVE_PSYSHIELD_BASH"
+        ]
+      ]
+    },
     "profile": {
       "height": "1.4 m",
       "weight": "71.2 kg",
@@ -13446,7 +13750,15 @@
       "Speed": 100
     },
     "species": "Rushing",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "392",
+          "EVO_LEVEL_NIGHT",
+          "35"
+        ]
+      ]
+    },
     "profile": {
       "height": "0.5 m",
       "weight": "32.5 kg",
@@ -13729,7 +14041,15 @@
       "Speed": 50
     },
     "species": "Jolly",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "400",
+          "EVO_ITEM",
+          "ITEM_WATER_STONE"
+        ]
+      ]
+    },
     "profile": {
       "height": "1.2 m",
       "weight": "32.5 kg",
@@ -13837,7 +14157,15 @@
       "Speed": 60
     },
     "species": "Wily",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "403",
+          "EVO_ITEM",
+          "ITEM_LEAF_STONE"
+        ]
+      ]
+    },
     "profile": {
       "height": "1.0 m",
       "weight": "28.0 kg",
@@ -14852,7 +15180,15 @@
       "Speed": 50
     },
     "species": "Kitten",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "432",
+          "EVO_ITEM",
+          "ITEM_MOON_STONE"
+        ]
+      ]
+    },
     "profile": {
       "height": "0.6 m",
       "weight": "11.0 kg",
@@ -15571,7 +15907,15 @@
       "Speed": 65
     },
     "species": "Thorn",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "453",
+          "EVO_ITEM",
+          "ITEM_SHINY_STONE"
+        ]
+      ]
+    },
     "profile": {
       "height": "0.3 m",
       "weight": "2.0 kg",
@@ -17395,7 +17739,15 @@
       "Speed": 45
     },
     "species": "Bell",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "505",
+          "EVO_FRIENDSHIP_NIGHT",
+          "0"
+        ]
+      ]
+    },
     "profile": {
       "height": "0.2 m",
       "weight": "0.6 kg",
@@ -19856,7 +20208,15 @@
       "Speed": 70
     },
     "species": "Tiny Bee",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "576",
+          "EVO_LEVEL_FEMALE",
+          "21"
+        ]
+      ]
+    },
     "profile": {
       "height": "0.3 m",
       "weight": "5.5 kg",
@@ -20896,7 +21256,15 @@
       "Speed": 60
     },
     "species": "Emanation",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "605",
+          "EVO_FRIENDSHIP_DAY",
+          "0"
+        ]
+      ]
+    },
     "profile": {
       "height": "0.7 m",
       "weight": "20.2 kg",
@@ -23405,7 +23773,15 @@
       "Speed": 64
     },
     "species": "Grass Monkey",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "679",
+          "EVO_ITEM",
+          "ITEM_LEAF_STONE"
+        ]
+      ]
+    },
     "profile": {
       "height": "0.6 m",
       "weight": "10.5 kg",
@@ -23469,7 +23845,15 @@
       "Speed": 64
     },
     "species": "High Temp",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "681",
+          "EVO_ITEM",
+          "ITEM_FIRE_STONE"
+        ]
+      ]
+    },
     "profile": {
       "height": "0.6 m",
       "weight": "11.0 kg",
@@ -23533,7 +23917,15 @@
       "Speed": 64
     },
     "species": "Spray",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "683",
+          "EVO_ITEM",
+          "ITEM_WATER_STONE"
+        ]
+      ]
+    },
     "profile": {
       "height": "0.6 m",
       "weight": "13.5 kg",
@@ -23597,7 +23989,15 @@
       "Speed": 24
     },
     "species": "Dream Eater",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "685",
+          "EVO_ITEM",
+          "ITEM_MOON_STONE"
+        ]
+      ]
+    },
     "profile": {
       "height": "0.6 m",
       "weight": "23.3 kg",
@@ -23949,7 +24349,15 @@
       "Speed": 72
     },
     "species": "Bat",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "695",
+          "EVO_FRIENDSHIP",
+          "0"
+        ]
+      ]
+    },
     "profile": {
       "height": "0.4 m",
       "weight": "2.1 kg",
@@ -24473,7 +24881,15 @@
       "Speed": 42
     },
     "species": "Leaf-Wrapped",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "710",
+          "EVO_FRIENDSHIP",
+          "0"
+        ]
+      ]
+    },
     "profile": {
       "height": "0.5 m",
       "weight": "7.3 kg",
@@ -24649,7 +25065,15 @@
       "Speed": 66
     },
     "species": "Cotton Puff",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "715",
+          "EVO_ITEM",
+          "ITEM_SUN_STONE"
+        ]
+      ]
+    },
     "profile": {
       "height": "0.3 m",
       "weight": "0.6 kg",
@@ -25189,7 +25613,15 @@
       "Speed": 50
     },
     "species": "Zen Charm",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "731",
+          "EVO_ITEM",
+          "ITEM_ICE_STONE"
+        ]
+      ]
+    },
     "profile": {
       "height": "0.7 m",
       "weight": "40.0 kg",
@@ -25575,7 +26007,15 @@
       "Speed": 30
     },
     "species": "Spirit",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "742",
+          "EVO_SCRIPT_TRIGGER_DMG",
+          "49"
+        ]
+      ]
+    },
     "profile": {
       "height": "0.5 m",
       "weight": "1.5 kg",
@@ -26007,7 +26447,15 @@
       "Speed": 75
     },
     "species": "Chinchilla",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "754",
+          "EVO_ITEM",
+          "ITEM_SHINY_STONE"
+        ]
+      ]
+    },
     "profile": {
       "height": "0.4 m",
       "weight": "5.8 kg",
@@ -26801,7 +27249,15 @@
       "Speed": 60
     },
     "species": "Clamping",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "776",
+          "EVO_TRADE_SPECIFIC_MON",
+          "SPECIES_SHELMET"
+        ]
+      ]
+    },
     "profile": {
       "height": "0.5 m",
       "weight": "5.9 kg",
@@ -27342,7 +27798,15 @@
       "Speed": 40
     },
     "species": "EleFish",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "791",
+          "EVO_ITEM",
+          "ITEM_THUNDER_STONE"
+        ]
+      ]
+    },
     "profile": {
       "height": "1.2 m",
       "weight": "22.0 kg",
@@ -27518,7 +27982,15 @@
       "Speed": 55
     },
     "species": "Lamp",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "796",
+          "EVO_ITEM",
+          "ITEM_DUSK_STONE"
+        ]
+      ]
+    },
     "profile": {
       "height": "0.6 m",
       "weight": "13.0 kg",
@@ -27799,7 +28271,15 @@
       "Speed": 25
     },
     "species": "Snail",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "804",
+          "EVO_TRADE_SPECIFIC_MON",
+          "SPECIES_KARRABLAST"
+        ]
+      ]
+    },
     "profile": {
       "height": "0.4 m",
       "weight": "7.7 kg",
@@ -28151,7 +28631,15 @@
       "Speed": 70
     },
     "species": "Sword Blade",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "814",
+          "EVO_DEFEAT_THREE_WITH_ITEM",
+          "ITEM_LEADERS_CREST"
+        ]
+      ]
+    },
     "profile": {
       "height": "1.6 m",
       "weight": "70.0 kg",
@@ -30104,7 +30592,15 @@
       "Speed": 52
     },
     "species": "Single Bloom",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "875",
+          "EVO_ITEM",
+          "ITEM_SHINY_STONE"
+        ]
+      ]
+    },
     "profile": {
       "height": "0.2 m",
       "weight": "0.9 kg",
@@ -30399,7 +30895,15 @@
       "Speed": 43
     },
     "species": "Playful",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "879",
+          "EVO_LEVEL_DARK_TYPE_MON_IN_PARTY",
+          "32"
+        ]
+      ]
+    },
     "profile": {
       "height": "0.6 m",
       "weight": "8.0 kg",
@@ -30635,7 +31139,15 @@
       "Speed": 35
     },
     "species": "Sword",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "886",
+          "EVO_ITEM",
+          "ITEM_DUSK_STONE"
+        ]
+      ]
+    },
     "profile": {
       "height": "0.8 m",
       "weight": "4.5 kg",
@@ -31158,7 +31670,15 @@
       "Speed": 70
     },
     "species": "Generator",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "901",
+          "EVO_ITEM",
+          "ITEM_SUN_STONE"
+        ]
+      ]
+    },
     "profile": {
       "height": "0.5 m",
       "weight": "6.0 kg",
@@ -31226,7 +31746,15 @@
       "Speed": 48
     },
     "species": "Royal Heir",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "903",
+          "EVO_LEVEL_DAY",
+          "39"
+        ]
+      ]
+    },
     "profile": {
       "height": "0.8 m",
       "weight": "26.0 kg",
@@ -31294,7 +31822,15 @@
       "Speed": 46
     },
     "species": "Tundra",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "905",
+          "EVO_LEVEL_NIGHT",
+          "39"
+        ]
+      ]
+    },
     "profile": {
       "height": "1.3 m",
       "weight": "25.2 kg",
@@ -32960,7 +33496,15 @@
       "Speed": 45
     },
     "species": "Loitering",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "954",
+          "EVO_LEVEL_DAY",
+          "20"
+        ]
+      ]
+    },
     "profile": {
       "height": "0.4 m",
       "weight": "6.0 kg",
@@ -34115,7 +34659,15 @@
       "Speed": 62
     },
     "species": "Fruit",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "988",
+          "EVO_MOVE",
+          "MOVE_STOMP"
+        ]
+      ]
+    },
     "profile": {
       "height": "0.7 m",
       "weight": "8.2 kg",
@@ -34456,7 +35008,15 @@
       "Speed": 59
     },
     "species": "Synthetic",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "998",
+          "EVO_FRIENDSHIP",
+          "0"
+        ]
+      ]
+    },
     "profile": {
       "height": "1.9 m",
       "weight": "120.5 kg",
@@ -36593,7 +37153,15 @@
       "Speed": 73
     },
     "species": "Poison Pin",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "1063",
+          "EVO_MOVE",
+          "MOVE_DRAGON_PULSE"
+        ]
+      ]
+    },
     "profile": {
       "height": "0.6 m",
       "weight": "1.8 kg",
@@ -38026,7 +38594,15 @@
       "Speed": 40
     },
     "species": "Candy Apple",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "1103",
+          "EVO_MOVE",
+          "MOVE_DRAGON_CHEER"
+        ]
+      ]
+    },
     "profile": {
       "height": "0.4 m",
       "weight": "4.4 kg",
@@ -38443,7 +39019,15 @@
       "Speed": 32
     },
     "species": "Tantrum",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "1115",
+          "EVO_MOVE",
+          "MOVE_TAUNT"
+        ]
+      ]
+    },
     "profile": {
       "height": "0.6 m",
       "weight": "4.0 kg",
@@ -38510,7 +39094,15 @@
       "Speed": 50
     },
     "species": "Black Tea",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "1118",
+          "EVO_ITEM",
+          "ITEM_CRACKED_POT"
+        ]
+      ]
+    },
     "profile": {
       "height": "0.1 m",
       "weight": "0.2 kg",
@@ -38543,7 +39135,15 @@
       "Speed": 50
     },
     "species": "Black Tea",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "1119",
+          "EVO_ITEM",
+          "ITEM_CHIPPED_POT"
+        ]
+      ]
+    },
     "profile": {
       "height": "0.1 m",
       "weight": "0.2 kg",
@@ -39002,7 +39602,15 @@
       "Speed": 20
     },
     "species": "Worm",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "1131",
+          "EVO_FRIENDSHIP_NIGHT",
+          "0"
+        ]
+      ]
+    },
     "profile": {
       "height": "0.3 m",
       "weight": "3.8 kg",
@@ -39505,7 +40113,15 @@
       "Speed": 85
     },
     "species": "Alloy",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "1146",
+          "EVO_ITEM",
+          "ITEM_METAL_ALLOY"
+        ]
+      ]
+    },
     "profile": {
       "height": "1.8 m",
       "weight": "40.0 kg",
@@ -40926,7 +41542,15 @@
       "Speed": 85
     },
     "species": "Mouse",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "1187",
+          "EVO_OVERWORLD_STEPS",
+          "1000"
+        ]
+      ]
+    },
     "profile": {
       "height": "0.4 m",
       "weight": "6.5 kg",
@@ -41615,7 +42239,15 @@
       "Speed": 45
     },
     "species": "EleTadpole",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "1207",
+          "EVO_ITEM",
+          "ITEM_THUNDER_STONE"
+        ]
+      ]
+    },
     "profile": {
       "height": "0.3 m",
       "weight": "0.4 kg",
@@ -41899,7 +42531,15 @@
       "Speed": 60
     },
     "species": "Tumbleweed",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "1215",
+          "EVO_OVERWORLD_STEPS",
+          "1000"
+        ]
+      ]
+    },
     "profile": {
       "height": "0.6 m",
       "weight": "0.6 kg",
@@ -42069,7 +42709,15 @@
       "Speed": 50
     },
     "species": "Spicy Pepper",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "1220",
+          "EVO_ITEM",
+          "ITEM_FIRE_STONE"
+        ]
+      ]
+    },
     "profile": {
       "height": "0.3 m",
       "weight": "3.0 kg",
@@ -42134,7 +42782,15 @@
       "Speed": 30
     },
     "species": "Rolling",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "1222",
+          "EVO_OVERWORLD_STEPS",
+          "1000"
+        ]
+      ]
+    },
     "profile": {
       "height": "0.2 m",
       "weight": "1.0 kg",
@@ -42804,7 +43460,15 @@
       "Speed": 34
     },
     "species": "Ghost Dog",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "1241",
+          "EVO_LEVEL_NIGHT",
+          "30"
+        ]
+      ]
+    },
     "profile": {
       "height": "0.6 m",
       "weight": "35.0 kg",
@@ -42901,7 +43565,15 @@
       "Speed": 43
     },
     "species": "Terra Whale",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "1244",
+          "EVO_ITEM",
+          "ITEM_ICE_STONE"
+        ]
+      ]
+    },
     "profile": {
       "height": "1.2 m",
       "weight": "45.0 kg",
@@ -43641,7 +44313,15 @@
       "Speed": 10
     },
     "species": "Coin Chest",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "1267",
+          "EVO_ITEM_COUNT_999",
+          "ITEM_GIMMIGHOUL_COIN"
+        ]
+      ]
+    },
     "profile": {
       "height": "0.3 m",
       "weight": "5.0 kg",
@@ -43673,7 +44353,15 @@
       "Speed": 80
     },
     "species": "Coin Hunter",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "1267",
+          "EVO_ITEM_COUNT_999",
+          "ITEM_GIMMIGHOUL_COIN"
+        ]
+      ]
+    },
     "profile": {
       "height": "0.1 m",
       "weight": "0.1 kg",
@@ -44069,7 +44757,15 @@
       "Speed": 50
     },
     "species": "Matcha",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "1280",
+          "EVO_ITEM",
+          "ITEM_UNREMARKABLE_TEACUP"
+        ]
+      ]
+    },
     "profile": {
       "height": "0.1 m",
       "weight": "1.1 kg",
@@ -44103,7 +44799,15 @@
       "Speed": 50
     },
     "species": "Matcha",
-    "evolution": {},
+    "evolution": {
+      "next": [
+        [
+          "1281",
+          "EVO_ITEM",
+          "ITEM_MASTERPIECE_TEACUP"
+        ]
+      ]
+    },
     "profile": {
       "height": "0.1 m",
       "weight": "1.1 kg",

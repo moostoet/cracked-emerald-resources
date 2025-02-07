@@ -11,6 +11,7 @@ export function usePokedex() {
     if (pokemon.value.length === 0) {
       try {
         const response = await $fetch<{ success: boolean, data: PokemonSchema[] }>('/api/parse/pokedex')
+        console.log(response)
         if (response.success) {
           pokemon.value = response.data
         }
