@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { test } from 'effect/Logger'
 import { useInputLabels } from '~~/composables/UseInputLabels'
 
 const router = useRouter()
