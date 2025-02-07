@@ -1,5 +1,10 @@
+<script setup lang="ts">
+import AppVersion from '~~/components/AppVersion.vue'
+</script>
+
 <template>
   <UApp>
+    <AppVersion />
     <NuxtRouteAnnouncer />
     <NuxtLoadingIndicator />
     <NuxtLayout>
