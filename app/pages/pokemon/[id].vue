@@ -19,7 +19,7 @@
             </p>
             <div class="flex gap-1">
               <PokemonType v-if="currentMon.type[0]" :type="currentMon.type[0]" />
-              <PokemonType v-if="currentMon.type[1]" :type="currentMon.type[1]" />
+              <PokemonType v-if="currentMon.type[1] && currentMon.type[1] !== currentMon.type[0]" :type="currentMon.type[1]" />
             </div>
           </div>
           <div>
@@ -85,10 +85,6 @@ const router = useRouter()
 const { fetchPokemon, pokemon, findPokemonById } = usePokedex()
 
 const currentMon = ref<PokemonSchema>()
-
-const filteredAbilities = computed(() => {
-  return currentMon.value?.profile.ability.filter(ability => ability !== 'None') || []
-})
 
 onMounted(async () => {
   await fetchPokemon()

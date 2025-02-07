@@ -2222,7 +2222,10 @@
   {
     "id": "064",
     "name": "Cleffa",
-    "type": [],
+    "type": [
+      "Fairy",
+      "Fairy"
+    ],
     "base": {
       "HP": 50,
       "Attack": 25,
@@ -2260,7 +2263,10 @@
   {
     "id": "065",
     "name": "Clefairy",
-    "type": [],
+    "type": [
+      "Fairy",
+      "Fairy"
+    ],
     "base": {
       "HP": 70,
       "Attack": 45,
@@ -2298,7 +2304,10 @@
   {
     "id": "066",
     "name": "Clefable",
-    "type": [],
+    "type": [
+      "Fairy",
+      "Fairy"
+    ],
     "base": {
       "HP": 95,
       "Attack": 70,
@@ -2473,7 +2482,10 @@
   {
     "id": "071",
     "name": "Igglybuff",
-    "type": [],
+    "type": [
+      "Normal",
+      "Fairy"
+    ],
     "base": {
       "HP": 90,
       "Attack": 30,
@@ -2511,7 +2523,10 @@
   {
     "id": "072",
     "name": "Jigglypuff",
-    "type": [],
+    "type": [
+      "Normal",
+      "Fairy"
+    ],
     "base": {
       "HP": 115,
       "Attack": 45,
@@ -2549,7 +2564,10 @@
   {
     "id": "073",
     "name": "Wigglytuff",
-    "type": [],
+    "type": [
+      "Normal",
+      "Fairy"
+    ],
     "base": {
       "HP": 140,
       "Attack": 70,
@@ -15308,7 +15326,10 @@
   {
     "id": "435",
     "name": "Mawile",
-    "type": [],
+    "type": [
+      "Steel",
+      "Fairy"
+    ],
     "base": {
       "HP": 50,
       "Attack": 85,
@@ -15339,7 +15360,10 @@
   {
     "id": "436",
     "name": "Mawile-Mega",
-    "type": [],
+    "type": [
+      "Steel",
+      "Fairy"
+    ],
     "base": {
       "HP": 50,
       "Attack": 105,
@@ -25055,7 +25079,10 @@
   {
     "id": "714",
     "name": "Cottonee",
-    "type": [],
+    "type": [
+      "Grass",
+      "Fairy"
+    ],
     "base": {
       "HP": 40,
       "Attack": 27,
@@ -25094,7 +25121,10 @@
   {
     "id": "715",
     "name": "Whimsicott",
-    "type": [],
+    "type": [
+      "Grass",
+      "Fairy"
+    ],
     "base": {
       "HP": 60,
       "Attack": 67,
@@ -30553,14 +30583,7 @@
       "Speed": 42
     },
     "species": "Single Bloom",
-    "evolution": {
-      "next": [
-        [
-          "869",
-          "Level 19"
-        ]
-      ]
-    },
+    "evolution": {},
     "profile": {
       "height": "0.1 m",
       "weight": "0.1 kg",
@@ -30579,174 +30602,6 @@
   },
   {
     "id": "869",
-    "name": "Floette",
-    "type": [
-      "Fairy"
-    ],
-    "base": {
-      "HP": 54,
-      "Attack": 45,
-      "Defense": 47,
-      "Sp. Attack": 75,
-      "Sp. Defense": 98,
-      "Speed": 52
-    },
-    "species": "Single Bloom",
-    "evolution": {
-      "next": [
-        [
-          "875",
-          "EVO_ITEM",
-          "ITEM_SHINY_STONE"
-        ]
-      ]
-    },
-    "profile": {
-      "height": "0.2 m",
-      "weight": "0.9 kg",
-      "egg": [
-        "Fairy"
-      ],
-      "ability": [
-        "Flower Veil",
-        "None",
-        "Symbiosis"
-      ]
-    },
-    "image": {
-      "sprite": "https://raw.githubusercontent.com/May8th1995/sprites/master/Floette.png"
-    }
-  },
-  {
-    "id": "870",
-    "name": "Floette-Yellow",
-    "type": [
-      "Fairy"
-    ],
-    "base": {
-      "HP": 54,
-      "Attack": 45,
-      "Defense": 47,
-      "Sp. Attack": 75,
-      "Sp. Defense": 98,
-      "Speed": 52
-    },
-    "species": "Single Bloom",
-    "evolution": {},
-    "profile": {
-      "height": "0.2 m",
-      "weight": "0.9 kg",
-      "egg": [
-        "Fairy"
-      ],
-      "ability": [
-        "Flower Veil",
-        "None",
-        "Symbiosis"
-      ]
-    },
-    "image": {
-      "sprite": "https://raw.githubusercontent.com/May8th1995/sprites/master/Floette-Yellow.png"
-    }
-  },
-  {
-    "id": "871",
-    "name": "Floette",
-    "type": [
-      "Fairy"
-    ],
-    "base": {
-      "HP": 54,
-      "Attack": 45,
-      "Defense": 47,
-      "Sp. Attack": 75,
-      "Sp. Defense": 98,
-      "Speed": 52
-    },
-    "species": "Single Bloom",
-    "evolution": {},
-    "profile": {
-      "height": "0.2 m",
-      "weight": "0.9 kg",
-      "egg": [
-        "Fairy"
-      ],
-      "ability": [
-        "Flower Veil",
-        "None",
-        "Symbiosis"
-      ]
-    },
-    "image": {
-      "sprite": "https://raw.githubusercontent.com/May8th1995/sprites/master/Floette.png"
-    }
-  },
-  {
-    "id": "872",
-    "name": "Floette-Blue",
-    "type": [
-      "Fairy"
-    ],
-    "base": {
-      "HP": 54,
-      "Attack": 45,
-      "Defense": 47,
-      "Sp. Attack": 75,
-      "Sp. Defense": 98,
-      "Speed": 52
-    },
-    "species": "Single Bloom",
-    "evolution": {},
-    "profile": {
-      "height": "0.2 m",
-      "weight": "0.9 kg",
-      "egg": [
-        "Fairy"
-      ],
-      "ability": [
-        "Flower Veil",
-        "None",
-        "Symbiosis"
-      ]
-    },
-    "image": {
-      "sprite": "https://raw.githubusercontent.com/May8th1995/sprites/master/Floette-Blue.png"
-    }
-  },
-  {
-    "id": "873",
-    "name": "Floette-White",
-    "type": [
-      "Fairy"
-    ],
-    "base": {
-      "HP": 54,
-      "Attack": 45,
-      "Defense": 47,
-      "Sp. Attack": 75,
-      "Sp. Defense": 98,
-      "Speed": 52
-    },
-    "species": "Single Bloom",
-    "evolution": {},
-    "profile": {
-      "height": "0.2 m",
-      "weight": "0.9 kg",
-      "egg": [
-        "Fairy"
-      ],
-      "ability": [
-        "Flower Veil",
-        "None",
-        "Symbiosis"
-      ]
-    },
-    "image": {
-      "sprite": "https://raw.githubusercontent.com/May8th1995/sprites/master/Floette-White.png"
-    }
-  },
-  {
-    "id": "874",
     "name": "Floette",
     "type": [
       "Fairy"
@@ -30778,7 +30633,7 @@
     }
   },
   {
-    "id": "875",
+    "id": "870",
     "name": "Florges",
     "type": [
       "Fairy"
@@ -30810,7 +30665,7 @@
     }
   },
   {
-    "id": "876",
+    "id": "871",
     "name": "Skiddo",
     "type": [
       "Grass"
@@ -30827,7 +30682,7 @@
     "evolution": {
       "next": [
         [
-          "877",
+          "872",
           "Level 32"
         ]
       ]
@@ -30849,7 +30704,7 @@
     }
   },
   {
-    "id": "877",
+    "id": "872",
     "name": "Gogoat",
     "type": [
       "Grass"
@@ -30881,7 +30736,7 @@
     }
   },
   {
-    "id": "878",
+    "id": "873",
     "name": "Pancham",
     "type": [
       "Fighting"
@@ -30898,7 +30753,7 @@
     "evolution": {
       "next": [
         [
-          "879",
+          "874",
           "EVO_LEVEL_DARK_TYPE_MON_IN_PARTY",
           "32"
         ]
@@ -30922,7 +30777,7 @@
     }
   },
   {
-    "id": "879",
+    "id": "874",
     "name": "Pangoro",
     "type": [
       "Fighting",
@@ -30956,7 +30811,7 @@
     }
   },
   {
-    "id": "880",
+    "id": "875",
     "name": "Furfrou",
     "type": [
       "Normal"
@@ -30988,7 +30843,7 @@
     }
   },
   {
-    "id": "881",
+    "id": "876",
     "name": "Espurr",
     "type": [
       "Psychic"
@@ -31020,7 +30875,7 @@
     }
   },
   {
-    "id": "882",
+    "id": "877",
     "name": "Meowstic",
     "type": [
       "Psychic"
@@ -31052,7 +30907,7 @@
     }
   },
   {
-    "id": "883",
+    "id": "878",
     "name": "Meowstic-F",
     "type": [
       "Psychic"
@@ -31084,7 +30939,7 @@
     }
   },
   {
-    "id": "884",
+    "id": "879",
     "name": "Honedge",
     "type": [
       "Steel",
@@ -31102,7 +30957,7 @@
     "evolution": {
       "next": [
         [
-          "885",
+          "880",
           "Level 35"
         ]
       ]
@@ -31124,7 +30979,7 @@
     }
   },
   {
-    "id": "885",
+    "id": "880",
     "name": "Doublade",
     "type": [
       "Steel",
@@ -31142,7 +30997,7 @@
     "evolution": {
       "next": [
         [
-          "886",
+          "881",
           "EVO_ITEM",
           "ITEM_DUSK_STONE"
         ]
@@ -31165,7 +31020,7 @@
     }
   },
   {
-    "id": "886",
+    "id": "881",
     "name": "Aegislash",
     "type": [
       "Steel",
@@ -31198,7 +31053,7 @@
     }
   },
   {
-    "id": "887",
+    "id": "882",
     "name": "Aegislash-Blade",
     "type": [
       "Steel",
@@ -31231,7 +31086,7 @@
     }
   },
   {
-    "id": "888",
+    "id": "883",
     "name": "Spritzee",
     "type": [
       "Fairy"
@@ -31263,7 +31118,7 @@
     }
   },
   {
-    "id": "889",
+    "id": "884",
     "name": "Aromatisse",
     "type": [
       "Fairy"
@@ -31295,7 +31150,7 @@
     }
   },
   {
-    "id": "890",
+    "id": "885",
     "name": "Swirlix",
     "type": [
       "Fairy"
@@ -31327,7 +31182,7 @@
     }
   },
   {
-    "id": "891",
+    "id": "886",
     "name": "Slurpuff",
     "type": [
       "Fairy"
@@ -31359,7 +31214,7 @@
     }
   },
   {
-    "id": "892",
+    "id": "887",
     "name": "Inkay",
     "type": [
       "Dark",
@@ -31377,7 +31232,7 @@
     "evolution": {
       "next": [
         [
-          "893",
+          "888",
           "Level 30"
         ]
       ]
@@ -31400,7 +31255,7 @@
     }
   },
   {
-    "id": "893",
+    "id": "888",
     "name": "Malamar",
     "type": [
       "Dark",
@@ -31434,7 +31289,7 @@
     }
   },
   {
-    "id": "894",
+    "id": "889",
     "name": "Binacle",
     "type": [
       "Rock",
@@ -31452,7 +31307,7 @@
     "evolution": {
       "next": [
         [
-          "895",
+          "890",
           "Level 39"
         ]
       ]
@@ -31474,7 +31329,7 @@
     }
   },
   {
-    "id": "895",
+    "id": "890",
     "name": "Barbaracle",
     "type": [
       "Rock",
@@ -31507,7 +31362,7 @@
     }
   },
   {
-    "id": "896",
+    "id": "891",
     "name": "Skrelp",
     "type": [
       "Poison",
@@ -31525,7 +31380,7 @@
     "evolution": {
       "next": [
         [
-          "897",
+          "892",
           "Level 48"
         ]
       ]
@@ -31548,7 +31403,7 @@
     }
   },
   {
-    "id": "897",
+    "id": "892",
     "name": "Dragalge",
     "type": [
       "Poison",
@@ -31582,7 +31437,7 @@
     }
   },
   {
-    "id": "898",
+    "id": "893",
     "name": "Clauncher",
     "type": [
       "Water"
@@ -31599,7 +31454,7 @@
     "evolution": {
       "next": [
         [
-          "899",
+          "894",
           "Level 37"
         ]
       ]
@@ -31622,7 +31477,7 @@
     }
   },
   {
-    "id": "899",
+    "id": "894",
     "name": "Clawitzer",
     "type": [
       "Water"
@@ -31655,7 +31510,7 @@
     }
   },
   {
-    "id": "900",
+    "id": "895",
     "name": "Helioptile",
     "type": [
       "Electric",
@@ -31673,7 +31528,7 @@
     "evolution": {
       "next": [
         [
-          "901",
+          "896",
           "EVO_ITEM",
           "ITEM_SUN_STONE"
         ]
@@ -31697,7 +31552,7 @@
     }
   },
   {
-    "id": "901",
+    "id": "896",
     "name": "Heliolisk",
     "type": [
       "Electric",
@@ -31731,7 +31586,7 @@
     }
   },
   {
-    "id": "902",
+    "id": "897",
     "name": "Tyrunt",
     "type": [
       "Rock",
@@ -31749,7 +31604,7 @@
     "evolution": {
       "next": [
         [
-          "903",
+          "898",
           "EVO_LEVEL_DAY",
           "39"
         ]
@@ -31773,7 +31628,7 @@
     }
   },
   {
-    "id": "903",
+    "id": "898",
     "name": "Tyrantrum",
     "type": [
       "Rock",
@@ -31807,7 +31662,7 @@
     }
   },
   {
-    "id": "904",
+    "id": "899",
     "name": "Amaura",
     "type": [
       "Rock",
@@ -31825,7 +31680,7 @@
     "evolution": {
       "next": [
         [
-          "905",
+          "900",
           "EVO_LEVEL_NIGHT",
           "39"
         ]
@@ -31848,7 +31703,7 @@
     }
   },
   {
-    "id": "905",
+    "id": "900",
     "name": "Aurorus",
     "type": [
       "Rock",
@@ -31881,7 +31736,7 @@
     }
   },
   {
-    "id": "906",
+    "id": "901",
     "name": "Hawlucha",
     "type": [
       "Fighting",
@@ -31915,7 +31770,7 @@
     }
   },
   {
-    "id": "907",
+    "id": "902",
     "name": "Dedenne",
     "type": [
       "Electric",
@@ -31949,7 +31804,7 @@
     }
   },
   {
-    "id": "908",
+    "id": "903",
     "name": "Carbink",
     "type": [
       "Rock",
@@ -31983,7 +31838,7 @@
     }
   },
   {
-    "id": "909",
+    "id": "904",
     "name": "Goomy",
     "type": [
       "Dragon"
@@ -32015,7 +31870,7 @@
     }
   },
   {
-    "id": "910",
+    "id": "905",
     "name": "Sliggoo",
     "type": [
       "Dragon"
@@ -32047,7 +31902,7 @@
     }
   },
   {
-    "id": "911",
+    "id": "906",
     "name": "Goodra",
     "type": [
       "Dragon"
@@ -32079,7 +31934,7 @@
     }
   },
   {
-    "id": "912",
+    "id": "907",
     "name": "Sliggoo-Hisui",
     "type": [
       "Dragon",
@@ -32112,7 +31967,7 @@
     }
   },
   {
-    "id": "913",
+    "id": "908",
     "name": "Goodra-Hisui",
     "type": [
       "Dragon",
@@ -32145,7 +32000,7 @@
     }
   },
   {
-    "id": "914",
+    "id": "909",
     "name": "Klefki",
     "type": [
       "Steel",
@@ -32178,7 +32033,7 @@
     }
   },
   {
-    "id": "915",
+    "id": "910",
     "name": "Phantump",
     "type": [
       "Ghost",
@@ -32212,7 +32067,7 @@
     }
   },
   {
-    "id": "916",
+    "id": "911",
     "name": "Trevenant",
     "type": [
       "Ghost",
@@ -32246,7 +32101,7 @@
     }
   },
   {
-    "id": "917",
+    "id": "912",
     "name": "Pumpkaboo",
     "type": [
       "Ghost",
@@ -32279,7 +32134,7 @@
     }
   },
   {
-    "id": "918",
+    "id": "913",
     "name": "Pumpkaboo-Small",
     "type": [
       "Ghost",
@@ -32312,7 +32167,7 @@
     }
   },
   {
-    "id": "919",
+    "id": "914",
     "name": "Pumpkaboo-Large",
     "type": [
       "Ghost",
@@ -32345,7 +32200,7 @@
     }
   },
   {
-    "id": "920",
+    "id": "915",
     "name": "Pumpkaboo-Super",
     "type": [
       "Ghost",
@@ -32378,7 +32233,7 @@
     }
   },
   {
-    "id": "921",
+    "id": "916",
     "name": "Gourgeist",
     "type": [
       "Ghost",
@@ -32411,7 +32266,7 @@
     }
   },
   {
-    "id": "922",
+    "id": "917",
     "name": "Gourgeist-Small",
     "type": [
       "Ghost",
@@ -32444,7 +32299,7 @@
     }
   },
   {
-    "id": "923",
+    "id": "918",
     "name": "Gourgeist-Large",
     "type": [
       "Ghost",
@@ -32477,7 +32332,7 @@
     }
   },
   {
-    "id": "924",
+    "id": "919",
     "name": "Gourgeist-Super",
     "type": [
       "Ghost",
@@ -32510,7 +32365,7 @@
     }
   },
   {
-    "id": "925",
+    "id": "920",
     "name": "Bergmite",
     "type": [
       "Ice"
@@ -32540,7 +32395,7 @@
     }
   },
   {
-    "id": "926",
+    "id": "921",
     "name": "Avalugg",
     "type": [
       "Ice"
@@ -32570,7 +32425,7 @@
     }
   },
   {
-    "id": "927",
+    "id": "922",
     "name": "Avalugg-Hisui",
     "type": [
       "Ice",
@@ -32601,7 +32456,7 @@
     }
   },
   {
-    "id": "928",
+    "id": "923",
     "name": "Noibat",
     "type": [
       "Flying",
@@ -32619,7 +32474,7 @@
     "evolution": {
       "next": [
         [
-          "929",
+          "924",
           "Level 48"
         ]
       ]
@@ -32642,7 +32497,7 @@
     }
   },
   {
-    "id": "929",
+    "id": "924",
     "name": "Noivern",
     "type": [
       "Flying",
@@ -32676,7 +32531,7 @@
     }
   },
   {
-    "id": "930",
+    "id": "925",
     "name": "Xerneas",
     "type": [
       "Fairy"
@@ -32708,7 +32563,7 @@
     }
   },
   {
-    "id": "931",
+    "id": "926",
     "name": "Yveltal",
     "type": [
       "Dark",
@@ -32741,7 +32596,7 @@
     }
   },
   {
-    "id": "932",
+    "id": "927",
     "name": "Zygarde",
     "type": [
       "Dragon",
@@ -32774,7 +32629,7 @@
     }
   },
   {
-    "id": "933",
+    "id": "928",
     "name": "Zygarde-10%",
     "type": [
       "Dragon",
@@ -32807,7 +32662,7 @@
     }
   },
   {
-    "id": "934",
+    "id": "929",
     "name": "Zygarde-Complete",
     "type": [
       "Dragon",
@@ -32840,7 +32695,7 @@
     }
   },
   {
-    "id": "935",
+    "id": "930",
     "name": "Diancie",
     "type": [
       "Rock",
@@ -32873,7 +32728,7 @@
     }
   },
   {
-    "id": "936",
+    "id": "931",
     "name": "Diancie-Mega",
     "type": [
       "Rock",
@@ -32906,7 +32761,7 @@
     }
   },
   {
-    "id": "937",
+    "id": "932",
     "name": "Hoopa",
     "type": [
       "Psychic",
@@ -32939,7 +32794,7 @@
     }
   },
   {
-    "id": "938",
+    "id": "933",
     "name": "Hoopa-Unbound",
     "type": [
       "Psychic",
@@ -32972,7 +32827,7 @@
     }
   },
   {
-    "id": "939",
+    "id": "934",
     "name": "Volcanion",
     "type": [
       "Fire",
@@ -33005,7 +32860,7 @@
     }
   },
   {
-    "id": "940",
+    "id": "935",
     "name": "Rowlet",
     "type": [
       "Grass",
@@ -33023,7 +32878,7 @@
     "evolution": {
       "next": [
         [
-          "941",
+          "936",
           "Level 17"
         ]
       ]
@@ -33045,7 +32900,7 @@
     }
   },
   {
-    "id": "941",
+    "id": "936",
     "name": "Dartrix",
     "type": [
       "Grass",
@@ -33078,7 +32933,7 @@
     }
   },
   {
-    "id": "942",
+    "id": "937",
     "name": "Decidueye",
     "type": [
       "Grass",
@@ -33111,7 +32966,7 @@
     }
   },
   {
-    "id": "943",
+    "id": "938",
     "name": "Decidueye-Hisui",
     "type": [
       "Grass",
@@ -33144,7 +32999,7 @@
     }
   },
   {
-    "id": "944",
+    "id": "939",
     "name": "Litten",
     "type": [
       "Fire"
@@ -33161,7 +33016,7 @@
     "evolution": {
       "next": [
         [
-          "945",
+          "940",
           "Level 17"
         ]
       ]
@@ -33183,7 +33038,7 @@
     }
   },
   {
-    "id": "945",
+    "id": "940",
     "name": "Torracat",
     "type": [
       "Fire"
@@ -33200,7 +33055,7 @@
     "evolution": {
       "next": [
         [
-          "946",
+          "941",
           "Level 34"
         ]
       ]
@@ -33222,7 +33077,7 @@
     }
   },
   {
-    "id": "946",
+    "id": "941",
     "name": "Incineroar",
     "type": [
       "Fire",
@@ -33255,7 +33110,7 @@
     }
   },
   {
-    "id": "947",
+    "id": "942",
     "name": "Popplio",
     "type": [
       "Water"
@@ -33272,7 +33127,7 @@
     "evolution": {
       "next": [
         [
-          "948",
+          "943",
           "Level 17"
         ]
       ]
@@ -33295,7 +33150,7 @@
     }
   },
   {
-    "id": "948",
+    "id": "943",
     "name": "Brionne",
     "type": [
       "Water"
@@ -33312,7 +33167,7 @@
     "evolution": {
       "next": [
         [
-          "949",
+          "944",
           "Level 34"
         ]
       ]
@@ -33335,7 +33190,7 @@
     }
   },
   {
-    "id": "949",
+    "id": "944",
     "name": "Primarina",
     "type": [
       "Water",
@@ -33369,7 +33224,7 @@
     }
   },
   {
-    "id": "950",
+    "id": "945",
     "name": "Pikipek",
     "type": [
       "Normal",
@@ -33387,7 +33242,7 @@
     "evolution": {
       "next": [
         [
-          "951",
+          "946",
           "Level 14"
         ]
       ]
@@ -33409,7 +33264,7 @@
     }
   },
   {
-    "id": "951",
+    "id": "946",
     "name": "Trumbeak",
     "type": [
       "Normal",
@@ -33427,7 +33282,7 @@
     "evolution": {
       "next": [
         [
-          "952",
+          "947",
           "Level 28"
         ]
       ]
@@ -33449,7 +33304,7 @@
     }
   },
   {
-    "id": "952",
+    "id": "947",
     "name": "Toucannon",
     "type": [
       "Normal",
@@ -33482,7 +33337,7 @@
     }
   },
   {
-    "id": "953",
+    "id": "948",
     "name": "Yungoos",
     "type": [
       "Normal"
@@ -33499,7 +33354,7 @@
     "evolution": {
       "next": [
         [
-          "954",
+          "949",
           "EVO_LEVEL_DAY",
           "20"
         ]
@@ -33522,7 +33377,7 @@
     }
   },
   {
-    "id": "954",
+    "id": "949",
     "name": "Gumshoos",
     "type": [
       "Normal"
@@ -33554,7 +33409,7 @@
     }
   },
   {
-    "id": "955",
+    "id": "950",
     "name": "Grubbin",
     "type": [
       "Bug"
@@ -33571,7 +33426,7 @@
     "evolution": {
       "next": [
         [
-          "956",
+          "951",
           "Level 20"
         ]
       ]
@@ -33593,7 +33448,7 @@
     }
   },
   {
-    "id": "956",
+    "id": "951",
     "name": "Charjabug",
     "type": [
       "Bug",
@@ -33626,7 +33481,7 @@
     }
   },
   {
-    "id": "957",
+    "id": "952",
     "name": "Vikavolt",
     "type": [
       "Bug",
@@ -33659,7 +33514,7 @@
     }
   },
   {
-    "id": "958",
+    "id": "953",
     "name": "Crabrawler",
     "type": [
       "Fighting"
@@ -33691,7 +33546,7 @@
     }
   },
   {
-    "id": "959",
+    "id": "954",
     "name": "Crabominable",
     "type": [
       "Fighting",
@@ -33724,7 +33579,7 @@
     }
   },
   {
-    "id": "960",
+    "id": "955",
     "name": "Oricorio",
     "type": [
       "Fire",
@@ -33757,7 +33612,7 @@
     }
   },
   {
-    "id": "961",
+    "id": "956",
     "name": "Oricorio-Pom-Pom",
     "type": [
       "Electric",
@@ -33790,7 +33645,7 @@
     }
   },
   {
-    "id": "962",
+    "id": "957",
     "name": "Oricorio-Pa'u",
     "type": [
       "Psychic",
@@ -33823,7 +33678,7 @@
     }
   },
   {
-    "id": "963",
+    "id": "958",
     "name": "Oricorio-Sensu",
     "type": [
       "Ghost",
@@ -33856,7 +33711,7 @@
     }
   },
   {
-    "id": "964",
+    "id": "959",
     "name": "Cutiefly",
     "type": [
       "Bug",
@@ -33890,7 +33745,7 @@
     }
   },
   {
-    "id": "965",
+    "id": "960",
     "name": "Ribombee",
     "type": [
       "Bug",
@@ -33924,7 +33779,7 @@
     }
   },
   {
-    "id": "966",
+    "id": "961",
     "name": "Rockruff",
     "type": [
       "Rock"
@@ -33956,7 +33811,7 @@
     }
   },
   {
-    "id": "967",
+    "id": "962",
     "name": "Lycanroc",
     "type": [
       "Rock"
@@ -33988,7 +33843,7 @@
     }
   },
   {
-    "id": "968",
+    "id": "963",
     "name": "Lycanroc-Midnight",
     "type": [
       "Rock"
@@ -34020,7 +33875,7 @@
     }
   },
   {
-    "id": "969",
+    "id": "964",
     "name": "Lycanroc-Dusk",
     "type": [
       "Rock"
@@ -34052,7 +33907,7 @@
     }
   },
   {
-    "id": "970",
+    "id": "965",
     "name": "Wishiwashi",
     "type": [
       "Water"
@@ -34084,7 +33939,7 @@
     }
   },
   {
-    "id": "971",
+    "id": "966",
     "name": "Wishiwashi-School",
     "type": [
       "Water"
@@ -34116,7 +33971,7 @@
     }
   },
   {
-    "id": "972",
+    "id": "967",
     "name": "Mareanie",
     "type": [
       "Poison",
@@ -34134,7 +33989,7 @@
     "evolution": {
       "next": [
         [
-          "973",
+          "968",
           "Level 38"
         ]
       ]
@@ -34156,7 +34011,7 @@
     }
   },
   {
-    "id": "973",
+    "id": "968",
     "name": "Toxapex",
     "type": [
       "Poison",
@@ -34189,7 +34044,7 @@
     }
   },
   {
-    "id": "974",
+    "id": "969",
     "name": "Mudbray",
     "type": [
       "Ground"
@@ -34206,7 +34061,7 @@
     "evolution": {
       "next": [
         [
-          "975",
+          "970",
           "Level 30"
         ]
       ]
@@ -34228,7 +34083,7 @@
     }
   },
   {
-    "id": "975",
+    "id": "970",
     "name": "Mudsdale",
     "type": [
       "Ground"
@@ -34260,7 +34115,7 @@
     }
   },
   {
-    "id": "976",
+    "id": "971",
     "name": "Dewpider",
     "type": [
       "Water",
@@ -34294,7 +34149,7 @@
     }
   },
   {
-    "id": "977",
+    "id": "972",
     "name": "Araquanid",
     "type": [
       "Water",
@@ -34328,7 +34183,7 @@
     }
   },
   {
-    "id": "978",
+    "id": "973",
     "name": "Fomantis",
     "type": [
       "Grass"
@@ -34360,7 +34215,7 @@
     }
   },
   {
-    "id": "979",
+    "id": "974",
     "name": "Lurantis",
     "type": [
       "Grass"
@@ -34392,7 +34247,7 @@
     }
   },
   {
-    "id": "980",
+    "id": "975",
     "name": "Morelull",
     "type": [
       "Grass",
@@ -34410,7 +34265,7 @@
     "evolution": {
       "next": [
         [
-          "981",
+          "976",
           "Level 24"
         ]
       ]
@@ -34432,7 +34287,7 @@
     }
   },
   {
-    "id": "981",
+    "id": "976",
     "name": "Shiinotic",
     "type": [
       "Grass",
@@ -34465,7 +34320,7 @@
     }
   },
   {
-    "id": "982",
+    "id": "977",
     "name": "Salandit",
     "type": [
       "Poison",
@@ -34499,7 +34354,7 @@
     }
   },
   {
-    "id": "983",
+    "id": "978",
     "name": "Salazzle",
     "type": [
       "Poison",
@@ -34533,7 +34388,7 @@
     }
   },
   {
-    "id": "984",
+    "id": "979",
     "name": "Stufful",
     "type": [
       "Normal",
@@ -34551,7 +34406,7 @@
     "evolution": {
       "next": [
         [
-          "985",
+          "980",
           "Level 27"
         ]
       ]
@@ -34573,7 +34428,7 @@
     }
   },
   {
-    "id": "985",
+    "id": "980",
     "name": "Bewear",
     "type": [
       "Normal",
@@ -34606,7 +34461,7 @@
     }
   },
   {
-    "id": "986",
+    "id": "981",
     "name": "Bounsweet",
     "type": [
       "Grass"
@@ -34623,7 +34478,7 @@
     "evolution": {
       "next": [
         [
-          "987",
+          "982",
           "Level 18"
         ]
       ]
@@ -34645,7 +34500,7 @@
     }
   },
   {
-    "id": "987",
+    "id": "982",
     "name": "Steenee",
     "type": [
       "Grass"
@@ -34662,7 +34517,7 @@
     "evolution": {
       "next": [
         [
-          "988",
+          "983",
           "EVO_MOVE",
           "MOVE_STOMP"
         ]
@@ -34685,7 +34540,7 @@
     }
   },
   {
-    "id": "988",
+    "id": "983",
     "name": "Tsareena",
     "type": [
       "Grass"
@@ -34717,7 +34572,7 @@
     }
   },
   {
-    "id": "989",
+    "id": "984",
     "name": "Comfey",
     "type": [
       "Fairy"
@@ -34749,7 +34604,7 @@
     }
   },
   {
-    "id": "990",
+    "id": "985",
     "name": "Oranguru",
     "type": [
       "Normal",
@@ -34782,7 +34637,7 @@
     }
   },
   {
-    "id": "991",
+    "id": "986",
     "name": "Passimian",
     "type": [
       "Fighting"
@@ -34814,7 +34669,7 @@
     }
   },
   {
-    "id": "992",
+    "id": "987",
     "name": "Wimpod",
     "type": [
       "Bug",
@@ -34832,7 +34687,7 @@
     "evolution": {
       "next": [
         [
-          "993",
+          "988",
           "Level 30"
         ]
       ]
@@ -34855,7 +34710,7 @@
     }
   },
   {
-    "id": "993",
+    "id": "988",
     "name": "Golisopod",
     "type": [
       "Bug",
@@ -34889,7 +34744,7 @@
     }
   },
   {
-    "id": "994",
+    "id": "989",
     "name": "Sandygast",
     "type": [
       "Ghost",
@@ -34907,7 +34762,7 @@
     "evolution": {
       "next": [
         [
-          "995",
+          "990",
           "Level 42"
         ]
       ]
@@ -34929,7 +34784,7 @@
     }
   },
   {
-    "id": "995",
+    "id": "990",
     "name": "Palossand",
     "type": [
       "Ghost",
@@ -34962,7 +34817,7 @@
     }
   },
   {
-    "id": "996",
+    "id": "991",
     "name": "Pyukumuku",
     "type": [
       "Water"
@@ -34994,7 +34849,7 @@
     }
   },
   {
-    "id": "997",
+    "id": "992",
     "name": "Type: Null",
     "type": [
       "Normal"
@@ -35011,7 +34866,7 @@
     "evolution": {
       "next": [
         [
-          "998",
+          "993",
           "EVO_FRIENDSHIP",
           "0"
         ]
@@ -35034,7 +34889,7 @@
     }
   },
   {
-    "id": "998",
+    "id": "993",
     "name": "Silvally",
     "type": [
       "Normal"
@@ -35066,7 +34921,7 @@
     }
   },
   {
-    "id": "999",
+    "id": "994",
     "name": "Silvally-Fighting",
     "type": [
       "Fighting"
@@ -35098,7 +34953,7 @@
     }
   },
   {
-    "id": "1000",
+    "id": "995",
     "name": "Silvally-Flying",
     "type": [
       "Flying"
@@ -35130,7 +34985,7 @@
     }
   },
   {
-    "id": "1001",
+    "id": "996",
     "name": "Silvally-Poison",
     "type": [
       "Poison"
@@ -35162,7 +35017,7 @@
     }
   },
   {
-    "id": "1002",
+    "id": "997",
     "name": "Silvally-Ground",
     "type": [
       "Ground"
@@ -35194,7 +35049,7 @@
     }
   },
   {
-    "id": "1003",
+    "id": "998",
     "name": "Silvally-Rock",
     "type": [
       "Rock"
@@ -35226,7 +35081,7 @@
     }
   },
   {
-    "id": "1004",
+    "id": "999",
     "name": "Silvally-Bug",
     "type": [
       "Bug"
@@ -35258,7 +35113,7 @@
     }
   },
   {
-    "id": "1005",
+    "id": "1000",
     "name": "Silvally-Ghost",
     "type": [
       "Ghost"
@@ -35290,7 +35145,7 @@
     }
   },
   {
-    "id": "1006",
+    "id": "1001",
     "name": "Silvally-Steel",
     "type": [
       "Steel"
@@ -35322,7 +35177,7 @@
     }
   },
   {
-    "id": "1007",
+    "id": "1002",
     "name": "Silvally-Fire",
     "type": [
       "Fire"
@@ -35354,7 +35209,7 @@
     }
   },
   {
-    "id": "1008",
+    "id": "1003",
     "name": "Silvally-Water",
     "type": [
       "Water"
@@ -35386,7 +35241,7 @@
     }
   },
   {
-    "id": "1009",
+    "id": "1004",
     "name": "Silvally-Grass",
     "type": [
       "Grass"
@@ -35418,7 +35273,7 @@
     }
   },
   {
-    "id": "1010",
+    "id": "1005",
     "name": "Silvally-Electric",
     "type": [
       "Electric"
@@ -35450,7 +35305,7 @@
     }
   },
   {
-    "id": "1011",
+    "id": "1006",
     "name": "Silvally-Psychic",
     "type": [
       "Psychic"
@@ -35482,7 +35337,7 @@
     }
   },
   {
-    "id": "1012",
+    "id": "1007",
     "name": "Silvally-Ice",
     "type": [
       "Ice"
@@ -35514,7 +35369,7 @@
     }
   },
   {
-    "id": "1013",
+    "id": "1008",
     "name": "Silvally-Dragon",
     "type": [
       "Dragon"
@@ -35546,7 +35401,7 @@
     }
   },
   {
-    "id": "1014",
+    "id": "1009",
     "name": "Silvally-Dark",
     "type": [
       "Dark"
@@ -35578,7 +35433,7 @@
     }
   },
   {
-    "id": "1015",
+    "id": "1010",
     "name": "Silvally-Fairy",
     "type": [
       "Fairy"
@@ -35607,6 +35462,171 @@
     },
     "image": {
       "sprite": "https://raw.githubusercontent.com/May8th1995/sprites/master/Silvally-Fairy.png"
+    }
+  },
+  {
+    "id": "1011",
+    "name": "Minior",
+    "type": [
+      "Rock",
+      "Flying"
+    ],
+    "base": {
+      "HP": 60,
+      "Attack": 60,
+      "Defense": 100,
+      "Sp. Attack": 60,
+      "Sp. Defense": 100,
+      "Speed": 60
+    },
+    "species": "Meteor",
+    "evolution": {},
+    "profile": {
+      "height": "0.3 m",
+      "weight": "40.0 kg",
+      "egg": [
+        "Mineral"
+      ],
+      "ability": [
+        "Shields Down",
+        "None",
+        "None"
+      ]
+    },
+    "image": {
+      "sprite": "https://raw.githubusercontent.com/May8th1995/sprites/master/Minior.png"
+    }
+  },
+  {
+    "id": "1012",
+    "name": "Minior",
+    "type": [
+      "Rock",
+      "Flying"
+    ],
+    "base": {
+      "HP": 60,
+      "Attack": 60,
+      "Defense": 100,
+      "Sp. Attack": 60,
+      "Sp. Defense": 100,
+      "Speed": 60
+    },
+    "species": "Meteor",
+    "evolution": {},
+    "profile": {
+      "height": "0.3 m",
+      "weight": "40.0 kg",
+      "egg": [
+        "Mineral"
+      ],
+      "ability": [
+        "Shields Down",
+        "None",
+        "None"
+      ]
+    },
+    "image": {
+      "sprite": "https://raw.githubusercontent.com/May8th1995/sprites/master/Minior.png"
+    }
+  },
+  {
+    "id": "1013",
+    "name": "Minior-Yellow",
+    "type": [
+      "Rock",
+      "Flying"
+    ],
+    "base": {
+      "HP": 60,
+      "Attack": 60,
+      "Defense": 100,
+      "Sp. Attack": 60,
+      "Sp. Defense": 100,
+      "Speed": 60
+    },
+    "species": "Meteor",
+    "evolution": {},
+    "profile": {
+      "height": "0.3 m",
+      "weight": "40.0 kg",
+      "egg": [
+        "Mineral"
+      ],
+      "ability": [
+        "Shields Down",
+        "None",
+        "None"
+      ]
+    },
+    "image": {
+      "sprite": "https://raw.githubusercontent.com/May8th1995/sprites/master/Minior-Yellow.png"
+    }
+  },
+  {
+    "id": "1014",
+    "name": "Minior",
+    "type": [
+      "Rock",
+      "Flying"
+    ],
+    "base": {
+      "HP": 60,
+      "Attack": 60,
+      "Defense": 100,
+      "Sp. Attack": 60,
+      "Sp. Defense": 100,
+      "Speed": 60
+    },
+    "species": "Meteor",
+    "evolution": {},
+    "profile": {
+      "height": "0.3 m",
+      "weight": "40.0 kg",
+      "egg": [
+        "Mineral"
+      ],
+      "ability": [
+        "Shields Down",
+        "None",
+        "None"
+      ]
+    },
+    "image": {
+      "sprite": "https://raw.githubusercontent.com/May8th1995/sprites/master/Minior.png"
+    }
+  },
+  {
+    "id": "1015",
+    "name": "Minior-Blue",
+    "type": [
+      "Rock",
+      "Flying"
+    ],
+    "base": {
+      "HP": 60,
+      "Attack": 60,
+      "Defense": 100,
+      "Sp. Attack": 60,
+      "Sp. Defense": 100,
+      "Speed": 60
+    },
+    "species": "Meteor",
+    "evolution": {},
+    "profile": {
+      "height": "0.3 m",
+      "weight": "40.0 kg",
+      "egg": [
+        "Mineral"
+      ],
+      "ability": [
+        "Shields Down",
+        "None",
+        "None"
+      ]
+    },
+    "image": {
+      "sprite": "https://raw.githubusercontent.com/May8th1995/sprites/master/Minior-Blue.png"
     }
   },
   {
@@ -35677,24 +35697,24 @@
   },
   {
     "id": "1018",
-    "name": "Minior-Yellow",
+    "name": "Minior",
     "type": [
       "Rock",
       "Flying"
     ],
     "base": {
       "HP": 60,
-      "Attack": 60,
-      "Defense": 100,
-      "Sp. Attack": 60,
-      "Sp. Defense": 100,
-      "Speed": 60
+      "Attack": 100,
+      "Defense": 60,
+      "Sp. Attack": 100,
+      "Sp. Defense": 60,
+      "Speed": 120
     },
     "species": "Meteor",
     "evolution": {},
     "profile": {
       "height": "0.3 m",
-      "weight": "40.0 kg",
+      "weight": "0.3 kg",
       "egg": [
         "Mineral"
       ],
@@ -35705,7 +35725,7 @@
       ]
     },
     "image": {
-      "sprite": "https://raw.githubusercontent.com/May8th1995/sprites/master/Minior-Yellow.png"
+      "sprite": "https://raw.githubusercontent.com/May8th1995/sprites/master/Minior.png"
     }
   },
   {
@@ -35717,17 +35737,17 @@
     ],
     "base": {
       "HP": 60,
-      "Attack": 60,
-      "Defense": 100,
-      "Sp. Attack": 60,
-      "Sp. Defense": 100,
-      "Speed": 60
+      "Attack": 100,
+      "Defense": 60,
+      "Sp. Attack": 100,
+      "Sp. Defense": 60,
+      "Speed": 120
     },
     "species": "Meteor",
     "evolution": {},
     "profile": {
       "height": "0.3 m",
-      "weight": "40.0 kg",
+      "weight": "0.3 kg",
       "egg": [
         "Mineral"
       ],
@@ -35743,24 +35763,24 @@
   },
   {
     "id": "1020",
-    "name": "Minior-Blue",
+    "name": "Minior-Yellow",
     "type": [
       "Rock",
       "Flying"
     ],
     "base": {
       "HP": 60,
-      "Attack": 60,
-      "Defense": 100,
-      "Sp. Attack": 60,
-      "Sp. Defense": 100,
-      "Speed": 60
+      "Attack": 100,
+      "Defense": 60,
+      "Sp. Attack": 100,
+      "Sp. Defense": 60,
+      "Speed": 120
     },
     "species": "Meteor",
     "evolution": {},
     "profile": {
       "height": "0.3 m",
-      "weight": "40.0 kg",
+      "weight": "0.3 kg",
       "egg": [
         "Mineral"
       ],
@@ -35771,7 +35791,7 @@
       ]
     },
     "image": {
-      "sprite": "https://raw.githubusercontent.com/May8th1995/sprites/master/Minior-Blue.png"
+      "sprite": "https://raw.githubusercontent.com/May8th1995/sprites/master/Minior-Yellow.png"
     }
   },
   {
@@ -35783,17 +35803,17 @@
     ],
     "base": {
       "HP": 60,
-      "Attack": 60,
-      "Defense": 100,
-      "Sp. Attack": 60,
-      "Sp. Defense": 100,
-      "Speed": 60
+      "Attack": 100,
+      "Defense": 60,
+      "Sp. Attack": 100,
+      "Sp. Defense": 60,
+      "Speed": 120
     },
     "species": "Meteor",
     "evolution": {},
     "profile": {
       "height": "0.3 m",
-      "weight": "40.0 kg",
+      "weight": "0.3 kg",
       "egg": [
         "Mineral"
       ],
@@ -35809,24 +35829,24 @@
   },
   {
     "id": "1022",
-    "name": "Minior",
+    "name": "Minior-Blue",
     "type": [
       "Rock",
       "Flying"
     ],
     "base": {
       "HP": 60,
-      "Attack": 60,
-      "Defense": 100,
-      "Sp. Attack": 60,
-      "Sp. Defense": 100,
-      "Speed": 60
+      "Attack": 100,
+      "Defense": 60,
+      "Sp. Attack": 100,
+      "Sp. Defense": 60,
+      "Speed": 120
     },
     "species": "Meteor",
     "evolution": {},
     "profile": {
       "height": "0.3 m",
-      "weight": "40.0 kg",
+      "weight": "0.3 kg",
       "egg": [
         "Mineral"
       ],
@@ -35837,7 +35857,7 @@
       ]
     },
     "image": {
-      "sprite": "https://raw.githubusercontent.com/May8th1995/sprites/master/Minior.png"
+      "sprite": "https://raw.githubusercontent.com/May8th1995/sprites/master/Minior-Blue.png"
     }
   },
   {
@@ -35908,171 +35928,6 @@
   },
   {
     "id": "1025",
-    "name": "Minior-Yellow",
-    "type": [
-      "Rock",
-      "Flying"
-    ],
-    "base": {
-      "HP": 60,
-      "Attack": 100,
-      "Defense": 60,
-      "Sp. Attack": 100,
-      "Sp. Defense": 60,
-      "Speed": 120
-    },
-    "species": "Meteor",
-    "evolution": {},
-    "profile": {
-      "height": "0.3 m",
-      "weight": "0.3 kg",
-      "egg": [
-        "Mineral"
-      ],
-      "ability": [
-        "Shields Down",
-        "None",
-        "None"
-      ]
-    },
-    "image": {
-      "sprite": "https://raw.githubusercontent.com/May8th1995/sprites/master/Minior-Yellow.png"
-    }
-  },
-  {
-    "id": "1026",
-    "name": "Minior",
-    "type": [
-      "Rock",
-      "Flying"
-    ],
-    "base": {
-      "HP": 60,
-      "Attack": 100,
-      "Defense": 60,
-      "Sp. Attack": 100,
-      "Sp. Defense": 60,
-      "Speed": 120
-    },
-    "species": "Meteor",
-    "evolution": {},
-    "profile": {
-      "height": "0.3 m",
-      "weight": "0.3 kg",
-      "egg": [
-        "Mineral"
-      ],
-      "ability": [
-        "Shields Down",
-        "None",
-        "None"
-      ]
-    },
-    "image": {
-      "sprite": "https://raw.githubusercontent.com/May8th1995/sprites/master/Minior.png"
-    }
-  },
-  {
-    "id": "1027",
-    "name": "Minior-Blue",
-    "type": [
-      "Rock",
-      "Flying"
-    ],
-    "base": {
-      "HP": 60,
-      "Attack": 100,
-      "Defense": 60,
-      "Sp. Attack": 100,
-      "Sp. Defense": 60,
-      "Speed": 120
-    },
-    "species": "Meteor",
-    "evolution": {},
-    "profile": {
-      "height": "0.3 m",
-      "weight": "0.3 kg",
-      "egg": [
-        "Mineral"
-      ],
-      "ability": [
-        "Shields Down",
-        "None",
-        "None"
-      ]
-    },
-    "image": {
-      "sprite": "https://raw.githubusercontent.com/May8th1995/sprites/master/Minior-Blue.png"
-    }
-  },
-  {
-    "id": "1028",
-    "name": "Minior",
-    "type": [
-      "Rock",
-      "Flying"
-    ],
-    "base": {
-      "HP": 60,
-      "Attack": 100,
-      "Defense": 60,
-      "Sp. Attack": 100,
-      "Sp. Defense": 60,
-      "Speed": 120
-    },
-    "species": "Meteor",
-    "evolution": {},
-    "profile": {
-      "height": "0.3 m",
-      "weight": "0.3 kg",
-      "egg": [
-        "Mineral"
-      ],
-      "ability": [
-        "Shields Down",
-        "None",
-        "None"
-      ]
-    },
-    "image": {
-      "sprite": "https://raw.githubusercontent.com/May8th1995/sprites/master/Minior.png"
-    }
-  },
-  {
-    "id": "1029",
-    "name": "Minior",
-    "type": [
-      "Rock",
-      "Flying"
-    ],
-    "base": {
-      "HP": 60,
-      "Attack": 100,
-      "Defense": 60,
-      "Sp. Attack": 100,
-      "Sp. Defense": 60,
-      "Speed": 120
-    },
-    "species": "Meteor",
-    "evolution": {},
-    "profile": {
-      "height": "0.3 m",
-      "weight": "0.3 kg",
-      "egg": [
-        "Mineral"
-      ],
-      "ability": [
-        "Shields Down",
-        "None",
-        "None"
-      ]
-    },
-    "image": {
-      "sprite": "https://raw.githubusercontent.com/May8th1995/sprites/master/Minior.png"
-    }
-  },
-  {
-    "id": "1030",
     "name": "Komala",
     "type": [
       "Normal"
@@ -36104,7 +35959,7 @@
     }
   },
   {
-    "id": "1031",
+    "id": "1026",
     "name": "Turtonator",
     "type": [
       "Fire",
@@ -36138,7 +35993,7 @@
     }
   },
   {
-    "id": "1032",
+    "id": "1027",
     "name": "Togedemaru",
     "type": [
       "Electric",
@@ -36172,7 +36027,7 @@
     }
   },
   {
-    "id": "1033",
+    "id": "1028",
     "name": "Mimikyu",
     "type": [
       "Ghost",
@@ -36205,7 +36060,7 @@
     }
   },
   {
-    "id": "1034",
+    "id": "1029",
     "name": "Bruxish",
     "type": [
       "Water",
@@ -36238,7 +36093,7 @@
     }
   },
   {
-    "id": "1035",
+    "id": "1030",
     "name": "Drampa",
     "type": [
       "Normal",
@@ -36272,7 +36127,7 @@
     }
   },
   {
-    "id": "1036",
+    "id": "1031",
     "name": "Dhelmise",
     "type": [
       "Ghost",
@@ -36305,7 +36160,7 @@
     }
   },
   {
-    "id": "1037",
+    "id": "1032",
     "name": "Jangmo-o",
     "type": [
       "Dragon"
@@ -36322,7 +36177,7 @@
     "evolution": {
       "next": [
         [
-          "1038",
+          "1033",
           "Level 35"
         ]
       ]
@@ -36344,7 +36199,7 @@
     }
   },
   {
-    "id": "1038",
+    "id": "1033",
     "name": "Hakamo-o",
     "type": [
       "Dragon",
@@ -36377,7 +36232,7 @@
     }
   },
   {
-    "id": "1039",
+    "id": "1034",
     "name": "Kommo-o",
     "type": [
       "Dragon",
@@ -36410,7 +36265,7 @@
     }
   },
   {
-    "id": "1040",
+    "id": "1035",
     "name": "Tapu Koko",
     "type": [
       "Electric",
@@ -36443,7 +36298,7 @@
     }
   },
   {
-    "id": "1041",
+    "id": "1036",
     "name": "Tapu Lele",
     "type": [
       "Psychic",
@@ -36476,7 +36331,7 @@
     }
   },
   {
-    "id": "1042",
+    "id": "1037",
     "name": "Tapu Bulu",
     "type": [
       "Grass",
@@ -36509,7 +36364,7 @@
     }
   },
   {
-    "id": "1043",
+    "id": "1038",
     "name": "Tapu Fini",
     "type": [
       "Water",
@@ -36542,7 +36397,7 @@
     }
   },
   {
-    "id": "1044",
+    "id": "1039",
     "name": "Cosmog",
     "type": [
       "Psychic"
@@ -36559,7 +36414,7 @@
     "evolution": {
       "next": [
         [
-          "1045",
+          "1040",
           "Level 43"
         ]
       ]
@@ -36581,7 +36436,7 @@
     }
   },
   {
-    "id": "1045",
+    "id": "1040",
     "name": "Cosmoem",
     "type": [
       "Psychic"
@@ -36613,7 +36468,7 @@
     }
   },
   {
-    "id": "1046",
+    "id": "1041",
     "name": "Solgaleo",
     "type": [
       "Psychic",
@@ -36646,7 +36501,7 @@
     }
   },
   {
-    "id": "1047",
+    "id": "1042",
     "name": "Lunala",
     "type": [
       "Psychic",
@@ -36679,7 +36534,7 @@
     }
   },
   {
-    "id": "1048",
+    "id": "1043",
     "name": "Nihilego",
     "type": [
       "Rock",
@@ -36712,7 +36567,7 @@
     }
   },
   {
-    "id": "1049",
+    "id": "1044",
     "name": "Buzzwole",
     "type": [
       "Bug",
@@ -36745,7 +36600,7 @@
     }
   },
   {
-    "id": "1050",
+    "id": "1045",
     "name": "Pheromosa",
     "type": [
       "Bug",
@@ -36778,7 +36633,7 @@
     }
   },
   {
-    "id": "1051",
+    "id": "1046",
     "name": "Xurkitree",
     "type": [
       "Electric"
@@ -36810,7 +36665,7 @@
     }
   },
   {
-    "id": "1052",
+    "id": "1047",
     "name": "Celesteela",
     "type": [
       "Steel",
@@ -36843,7 +36698,7 @@
     }
   },
   {
-    "id": "1053",
+    "id": "1048",
     "name": "Kartana",
     "type": [
       "Grass",
@@ -36876,7 +36731,7 @@
     }
   },
   {
-    "id": "1054",
+    "id": "1049",
     "name": "Guzzlord",
     "type": [
       "Dark",
@@ -36909,7 +36764,7 @@
     }
   },
   {
-    "id": "1055",
+    "id": "1050",
     "name": "Necrozma",
     "type": [
       "Psychic"
@@ -36941,7 +36796,7 @@
     }
   },
   {
-    "id": "1056",
+    "id": "1051",
     "name": "Necrozma-Dusk-Mane",
     "type": [
       "Psychic",
@@ -36974,7 +36829,7 @@
     }
   },
   {
-    "id": "1057",
+    "id": "1052",
     "name": "Necrozma-Dawn-Wings",
     "type": [
       "Psychic",
@@ -37007,7 +36862,7 @@
     }
   },
   {
-    "id": "1058",
+    "id": "1053",
     "name": "Necrozma-Ultra",
     "type": [
       "Psychic",
@@ -37040,7 +36895,7 @@
     }
   },
   {
-    "id": "1059",
+    "id": "1054",
     "name": "Magearna",
     "type": [
       "Steel",
@@ -37073,7 +36928,7 @@
     }
   },
   {
-    "id": "1060",
+    "id": "1055",
     "name": "Magearna-Original",
     "type": [
       "Steel",
@@ -37106,7 +36961,7 @@
     }
   },
   {
-    "id": "1061",
+    "id": "1056",
     "name": "Marshadow",
     "type": [
       "Fighting",
@@ -37139,7 +36994,7 @@
     }
   },
   {
-    "id": "1062",
+    "id": "1057",
     "name": "Poipole",
     "type": [
       "Poison"
@@ -37156,7 +37011,7 @@
     "evolution": {
       "next": [
         [
-          "1063",
+          "1058",
           "EVO_MOVE",
           "MOVE_DRAGON_PULSE"
         ]
@@ -37179,7 +37034,7 @@
     }
   },
   {
-    "id": "1063",
+    "id": "1058",
     "name": "Naganadel",
     "type": [
       "Poison",
@@ -37212,7 +37067,7 @@
     }
   },
   {
-    "id": "1064",
+    "id": "1059",
     "name": "Stakataka",
     "type": [
       "Rock",
@@ -37245,7 +37100,7 @@
     }
   },
   {
-    "id": "1065",
+    "id": "1060",
     "name": "Blacephalon",
     "type": [
       "Fire",
@@ -37278,7 +37133,7 @@
     }
   },
   {
-    "id": "1066",
+    "id": "1061",
     "name": "Zeraora",
     "type": [
       "Electric"
@@ -37310,7 +37165,7 @@
     }
   },
   {
-    "id": "1067",
+    "id": "1062",
     "name": "Meltan",
     "type": [
       "Steel"
@@ -37342,7 +37197,7 @@
     }
   },
   {
-    "id": "1068",
+    "id": "1063",
     "name": "Melmetal",
     "type": [
       "Steel"
@@ -37374,7 +37229,7 @@
     }
   },
   {
-    "id": "1069",
+    "id": "1064",
     "name": "Grookey",
     "type": [
       "Grass"
@@ -37391,7 +37246,7 @@
     "evolution": {
       "next": [
         [
-          "1070",
+          "1065",
           "Level 16"
         ]
       ]
@@ -37414,7 +37269,7 @@
     }
   },
   {
-    "id": "1070",
+    "id": "1065",
     "name": "Thwackey",
     "type": [
       "Grass"
@@ -37431,7 +37286,7 @@
     "evolution": {
       "next": [
         [
-          "1071",
+          "1066",
           "Level 35"
         ]
       ]
@@ -37454,7 +37309,7 @@
     }
   },
   {
-    "id": "1071",
+    "id": "1066",
     "name": "Rillaboom",
     "type": [
       "Grass"
@@ -37487,7 +37342,7 @@
     }
   },
   {
-    "id": "1072",
+    "id": "1067",
     "name": "Scorbunny",
     "type": [
       "Fire"
@@ -37504,7 +37359,7 @@
     "evolution": {
       "next": [
         [
-          "1073",
+          "1068",
           "Level 16"
         ]
       ]
@@ -37527,7 +37382,7 @@
     }
   },
   {
-    "id": "1073",
+    "id": "1068",
     "name": "Raboot",
     "type": [
       "Fire"
@@ -37544,7 +37399,7 @@
     "evolution": {
       "next": [
         [
-          "1074",
+          "1069",
           "Level 35"
         ]
       ]
@@ -37567,7 +37422,7 @@
     }
   },
   {
-    "id": "1074",
+    "id": "1069",
     "name": "Cinderace",
     "type": [
       "Fire"
@@ -37600,7 +37455,7 @@
     }
   },
   {
-    "id": "1075",
+    "id": "1070",
     "name": "Sobble",
     "type": [
       "Water"
@@ -37617,7 +37472,7 @@
     "evolution": {
       "next": [
         [
-          "1076",
+          "1071",
           "Level 16"
         ]
       ]
@@ -37640,7 +37495,7 @@
     }
   },
   {
-    "id": "1076",
+    "id": "1071",
     "name": "Drizzile",
     "type": [
       "Water"
@@ -37657,7 +37512,7 @@
     "evolution": {
       "next": [
         [
-          "1077",
+          "1072",
           "Level 35"
         ]
       ]
@@ -37680,7 +37535,7 @@
     }
   },
   {
-    "id": "1077",
+    "id": "1072",
     "name": "Inteleon",
     "type": [
       "Water"
@@ -37713,7 +37568,7 @@
     }
   },
   {
-    "id": "1078",
+    "id": "1073",
     "name": "Skwovet",
     "type": [
       "Normal"
@@ -37730,7 +37585,7 @@
     "evolution": {
       "next": [
         [
-          "1079",
+          "1074",
           "Level 20"
         ]
       ]
@@ -37752,7 +37607,7 @@
     }
   },
   {
-    "id": "1079",
+    "id": "1074",
     "name": "Greedent",
     "type": [
       "Normal"
@@ -37784,7 +37639,7 @@
     }
   },
   {
-    "id": "1080",
+    "id": "1075",
     "name": "Rookidee",
     "type": [
       "Flying"
@@ -37801,7 +37656,7 @@
     "evolution": {
       "next": [
         [
-          "1081",
+          "1076",
           "Level 18"
         ]
       ]
@@ -37823,7 +37678,7 @@
     }
   },
   {
-    "id": "1081",
+    "id": "1076",
     "name": "Corvisquire",
     "type": [
       "Flying"
@@ -37840,7 +37695,7 @@
     "evolution": {
       "next": [
         [
-          "1082",
+          "1077",
           "Level 38"
         ]
       ]
@@ -37862,7 +37717,7 @@
     }
   },
   {
-    "id": "1082",
+    "id": "1077",
     "name": "Corviknight",
     "type": [
       "Flying",
@@ -37895,7 +37750,7 @@
     }
   },
   {
-    "id": "1083",
+    "id": "1078",
     "name": "Blipbug",
     "type": [
       "Bug"
@@ -37912,7 +37767,7 @@
     "evolution": {
       "next": [
         [
-          "1084",
+          "1079",
           "Level 10"
         ]
       ]
@@ -37934,7 +37789,7 @@
     }
   },
   {
-    "id": "1084",
+    "id": "1079",
     "name": "Dottler",
     "type": [
       "Bug",
@@ -37952,7 +37807,7 @@
     "evolution": {
       "next": [
         [
-          "1085",
+          "1080",
           "Level 30"
         ]
       ]
@@ -37974,7 +37829,7 @@
     }
   },
   {
-    "id": "1085",
+    "id": "1080",
     "name": "Orbeetle",
     "type": [
       "Bug",
@@ -38007,7 +37862,7 @@
     }
   },
   {
-    "id": "1086",
+    "id": "1081",
     "name": "Nickit",
     "type": [
       "Dark"
@@ -38024,7 +37879,7 @@
     "evolution": {
       "next": [
         [
-          "1087",
+          "1082",
           "Level 18"
         ]
       ]
@@ -38046,7 +37901,7 @@
     }
   },
   {
-    "id": "1087",
+    "id": "1082",
     "name": "Thievul",
     "type": [
       "Dark"
@@ -38078,7 +37933,7 @@
     }
   },
   {
-    "id": "1088",
+    "id": "1083",
     "name": "Gossifleur",
     "type": [
       "Grass"
@@ -38095,7 +37950,7 @@
     "evolution": {
       "next": [
         [
-          "1089",
+          "1084",
           "Level 20"
         ]
       ]
@@ -38117,7 +37972,7 @@
     }
   },
   {
-    "id": "1089",
+    "id": "1084",
     "name": "Eldegoss",
     "type": [
       "Grass"
@@ -38149,7 +38004,7 @@
     }
   },
   {
-    "id": "1090",
+    "id": "1085",
     "name": "Wooloo",
     "type": [
       "Normal"
@@ -38166,7 +38021,7 @@
     "evolution": {
       "next": [
         [
-          "1091",
+          "1086",
           "Level 24"
         ]
       ]
@@ -38188,7 +38043,7 @@
     }
   },
   {
-    "id": "1091",
+    "id": "1086",
     "name": "Dubwool",
     "type": [
       "Normal"
@@ -38220,7 +38075,7 @@
     }
   },
   {
-    "id": "1092",
+    "id": "1087",
     "name": "Chewtle",
     "type": [
       "Water"
@@ -38237,7 +38092,7 @@
     "evolution": {
       "next": [
         [
-          "1093",
+          "1088",
           "Level 22"
         ]
       ]
@@ -38260,7 +38115,7 @@
     }
   },
   {
-    "id": "1093",
+    "id": "1088",
     "name": "Drednaw",
     "type": [
       "Water",
@@ -38294,7 +38149,7 @@
     }
   },
   {
-    "id": "1094",
+    "id": "1089",
     "name": "Yamper",
     "type": [
       "Electric"
@@ -38311,7 +38166,7 @@
     "evolution": {
       "next": [
         [
-          "1095",
+          "1090",
           "Level 25"
         ]
       ]
@@ -38333,7 +38188,7 @@
     }
   },
   {
-    "id": "1095",
+    "id": "1090",
     "name": "Boltund",
     "type": [
       "Electric"
@@ -38365,7 +38220,7 @@
     }
   },
   {
-    "id": "1096",
+    "id": "1091",
     "name": "Rolycoly",
     "type": [
       "Rock"
@@ -38382,7 +38237,7 @@
     "evolution": {
       "next": [
         [
-          "1097",
+          "1092",
           "Level 18"
         ]
       ]
@@ -38404,7 +38259,7 @@
     }
   },
   {
-    "id": "1097",
+    "id": "1092",
     "name": "Carkol",
     "type": [
       "Rock",
@@ -38422,7 +38277,7 @@
     "evolution": {
       "next": [
         [
-          "1098",
+          "1093",
           "Level 34"
         ]
       ]
@@ -38444,7 +38299,7 @@
     }
   },
   {
-    "id": "1098",
+    "id": "1093",
     "name": "Coalossal",
     "type": [
       "Rock",
@@ -38477,7 +38332,7 @@
     }
   },
   {
-    "id": "1099",
+    "id": "1094",
     "name": "Applin",
     "type": [
       "Grass",
@@ -38511,7 +38366,7 @@
     }
   },
   {
-    "id": "1100",
+    "id": "1095",
     "name": "Flapple",
     "type": [
       "Grass",
@@ -38545,7 +38400,7 @@
     }
   },
   {
-    "id": "1101",
+    "id": "1096",
     "name": "Appletun",
     "type": [
       "Grass",
@@ -38579,7 +38434,7 @@
     }
   },
   {
-    "id": "1102",
+    "id": "1097",
     "name": "Dipplin",
     "type": [
       "Grass",
@@ -38597,7 +38452,7 @@
     "evolution": {
       "next": [
         [
-          "1103",
+          "1098",
           "EVO_MOVE",
           "MOVE_DRAGON_CHEER"
         ]
@@ -38621,7 +38476,7 @@
     }
   },
   {
-    "id": "1103",
+    "id": "1098",
     "name": "Hydrapple",
     "type": [
       "Grass",
@@ -38655,7 +38510,7 @@
     }
   },
   {
-    "id": "1104",
+    "id": "1099",
     "name": "Silicobra",
     "type": [
       "Ground"
@@ -38672,7 +38527,7 @@
     "evolution": {
       "next": [
         [
-          "1105",
+          "1100",
           "Level 36"
         ]
       ]
@@ -38695,7 +38550,7 @@
     }
   },
   {
-    "id": "1105",
+    "id": "1100",
     "name": "Sandaconda",
     "type": [
       "Ground"
@@ -38728,7 +38583,7 @@
     }
   },
   {
-    "id": "1106",
+    "id": "1101",
     "name": "Cramorant",
     "type": [
       "Flying",
@@ -38762,7 +38617,7 @@
     }
   },
   {
-    "id": "1107",
+    "id": "1102",
     "name": "Arrokuda",
     "type": [
       "Water"
@@ -38779,7 +38634,7 @@
     "evolution": {
       "next": [
         [
-          "1108",
+          "1103",
           "Level 26"
         ]
       ]
@@ -38801,7 +38656,7 @@
     }
   },
   {
-    "id": "1108",
+    "id": "1103",
     "name": "Barraskewda",
     "type": [
       "Water"
@@ -38833,7 +38688,7 @@
     }
   },
   {
-    "id": "1109",
+    "id": "1104",
     "name": "Toxel",
     "type": [
       "Electric",
@@ -38866,7 +38721,7 @@
     }
   },
   {
-    "id": "1110",
+    "id": "1105",
     "name": "Toxtricity",
     "type": [
       "Electric",
@@ -38899,7 +38754,7 @@
     }
   },
   {
-    "id": "1111",
+    "id": "1106",
     "name": "Toxtricity-Low-Key",
     "type": [
       "Electric",
@@ -38932,7 +38787,7 @@
     }
   },
   {
-    "id": "1112",
+    "id": "1107",
     "name": "Sizzlipede",
     "type": [
       "Fire",
@@ -38950,7 +38805,7 @@
     "evolution": {
       "next": [
         [
-          "1113",
+          "1108",
           "Level 28"
         ]
       ]
@@ -38972,7 +38827,7 @@
     }
   },
   {
-    "id": "1113",
+    "id": "1108",
     "name": "Centiskorch",
     "type": [
       "Fire",
@@ -39005,7 +38860,7 @@
     }
   },
   {
-    "id": "1114",
+    "id": "1109",
     "name": "Clobbopus",
     "type": [
       "Fighting"
@@ -39022,7 +38877,7 @@
     "evolution": {
       "next": [
         [
-          "1115",
+          "1110",
           "EVO_MOVE",
           "MOVE_TAUNT"
         ]
@@ -39046,7 +38901,7 @@
     }
   },
   {
-    "id": "1115",
+    "id": "1110",
     "name": "Grapploct",
     "type": [
       "Fighting",
@@ -39080,7 +38935,7 @@
     }
   },
   {
-    "id": "1116",
+    "id": "1111",
     "name": "Sinistea",
     "type": [
       "Ghost"
@@ -39097,7 +38952,7 @@
     "evolution": {
       "next": [
         [
-          "1118",
+          "1113",
           "EVO_ITEM",
           "ITEM_CRACKED_POT"
         ]
@@ -39121,7 +38976,7 @@
     }
   },
   {
-    "id": "1117",
+    "id": "1112",
     "name": "Sinistea-Antique",
     "type": [
       "Ghost"
@@ -39138,7 +38993,7 @@
     "evolution": {
       "next": [
         [
-          "1119",
+          "1114",
           "EVO_ITEM",
           "ITEM_CHIPPED_POT"
         ]
@@ -39162,7 +39017,7 @@
     }
   },
   {
-    "id": "1118",
+    "id": "1113",
     "name": "Polteageist",
     "type": [
       "Ghost"
@@ -39195,7 +39050,7 @@
     }
   },
   {
-    "id": "1119",
+    "id": "1114",
     "name": "Polteageist-Antique",
     "type": [
       "Ghost"
@@ -39228,7 +39083,7 @@
     }
   },
   {
-    "id": "1120",
+    "id": "1115",
     "name": "Hatenna",
     "type": [
       "Psychic"
@@ -39245,7 +39100,7 @@
     "evolution": {
       "next": [
         [
-          "1121",
+          "1116",
           "Level 32"
         ]
       ]
@@ -39267,7 +39122,7 @@
     }
   },
   {
-    "id": "1121",
+    "id": "1116",
     "name": "Hattrem",
     "type": [
       "Psychic"
@@ -39284,7 +39139,7 @@
     "evolution": {
       "next": [
         [
-          "1122",
+          "1117",
           "Level 42"
         ]
       ]
@@ -39306,7 +39161,7 @@
     }
   },
   {
-    "id": "1122",
+    "id": "1117",
     "name": "Hatterene",
     "type": [
       "Psychic",
@@ -39339,7 +39194,7 @@
     }
   },
   {
-    "id": "1123",
+    "id": "1118",
     "name": "Impidimp",
     "type": [
       "Dark",
@@ -39357,7 +39212,7 @@
     "evolution": {
       "next": [
         [
-          "1124",
+          "1119",
           "Level 32"
         ]
       ]
@@ -39380,7 +39235,7 @@
     }
   },
   {
-    "id": "1124",
+    "id": "1119",
     "name": "Morgrem",
     "type": [
       "Dark",
@@ -39398,7 +39253,7 @@
     "evolution": {
       "next": [
         [
-          "1125",
+          "1120",
           "Level 42"
         ]
       ]
@@ -39421,7 +39276,7 @@
     }
   },
   {
-    "id": "1125",
+    "id": "1120",
     "name": "Grimmsnarl",
     "type": [
       "Dark",
@@ -39455,7 +39310,7 @@
     }
   },
   {
-    "id": "1126",
+    "id": "1121",
     "name": "Milcery",
     "type": [
       "Fairy"
@@ -39488,7 +39343,7 @@
     }
   },
   {
-    "id": "1127",
+    "id": "1122",
     "name": "Alcremie",
     "type": [
       "Fairy"
@@ -39521,7 +39376,7 @@
     }
   },
   {
-    "id": "1128",
+    "id": "1123",
     "name": "Falinks",
     "type": [
       "Fighting"
@@ -39554,7 +39409,7 @@
     }
   },
   {
-    "id": "1129",
+    "id": "1124",
     "name": "Pincurchin",
     "type": [
       "Electric"
@@ -39587,7 +39442,7 @@
     }
   },
   {
-    "id": "1130",
+    "id": "1125",
     "name": "Snom",
     "type": [
       "Ice",
@@ -39605,7 +39460,7 @@
     "evolution": {
       "next": [
         [
-          "1131",
+          "1126",
           "EVO_FRIENDSHIP_NIGHT",
           "0"
         ]
@@ -39628,7 +39483,7 @@
     }
   },
   {
-    "id": "1131",
+    "id": "1126",
     "name": "Frosmoth",
     "type": [
       "Ice",
@@ -39661,7 +39516,7 @@
     }
   },
   {
-    "id": "1132",
+    "id": "1127",
     "name": "Stonjourner",
     "type": [
       "Rock"
@@ -39693,7 +39548,7 @@
     }
   },
   {
-    "id": "1133",
+    "id": "1128",
     "name": "Eiscue-Ice",
     "type": [
       "Ice"
@@ -39726,7 +39581,7 @@
     }
   },
   {
-    "id": "1134",
+    "id": "1129",
     "name": "Eiscue-Noice",
     "type": [
       "Ice"
@@ -39759,7 +39614,7 @@
     }
   },
   {
-    "id": "1135",
+    "id": "1130",
     "name": "Indeedee",
     "type": [
       "Psychic",
@@ -39792,7 +39647,7 @@
     }
   },
   {
-    "id": "1136",
+    "id": "1131",
     "name": "Indeedee-F",
     "type": [
       "Psychic",
@@ -39825,7 +39680,7 @@
     }
   },
   {
-    "id": "1137",
+    "id": "1132",
     "name": "Morpeko",
     "type": [
       "Electric",
@@ -39859,7 +39714,7 @@
     }
   },
   {
-    "id": "1138",
+    "id": "1133",
     "name": "Morpeko-Hangry",
     "type": [
       "Electric",
@@ -39893,7 +39748,7 @@
     }
   },
   {
-    "id": "1139",
+    "id": "1134",
     "name": "Cufant",
     "type": [
       "Steel"
@@ -39910,7 +39765,7 @@
     "evolution": {
       "next": [
         [
-          "1140",
+          "1135",
           "Level 34"
         ]
       ]
@@ -39933,7 +39788,7 @@
     }
   },
   {
-    "id": "1140",
+    "id": "1135",
     "name": "Copperajah",
     "type": [
       "Steel"
@@ -39966,7 +39821,7 @@
     }
   },
   {
-    "id": "1141",
+    "id": "1136",
     "name": "Dracozolt",
     "type": [
       "Electric",
@@ -39999,7 +39854,7 @@
     }
   },
   {
-    "id": "1142",
+    "id": "1137",
     "name": "Arctozolt",
     "type": [
       "Electric",
@@ -40032,7 +39887,7 @@
     }
   },
   {
-    "id": "1143",
+    "id": "1138",
     "name": "Dracovish",
     "type": [
       "Water",
@@ -40065,7 +39920,7 @@
     }
   },
   {
-    "id": "1144",
+    "id": "1139",
     "name": "Arctovish",
     "type": [
       "Water",
@@ -40098,7 +39953,7 @@
     }
   },
   {
-    "id": "1145",
+    "id": "1140",
     "name": "Duraludon",
     "type": [
       "Steel",
@@ -40116,7 +39971,7 @@
     "evolution": {
       "next": [
         [
-          "1146",
+          "1141",
           "EVO_ITEM",
           "ITEM_METAL_ALLOY"
         ]
@@ -40140,7 +39995,7 @@
     }
   },
   {
-    "id": "1146",
+    "id": "1141",
     "name": "Archaludon",
     "type": [
       "Steel",
@@ -40174,7 +40029,7 @@
     }
   },
   {
-    "id": "1147",
+    "id": "1142",
     "name": "Dreepy",
     "type": [
       "Dragon",
@@ -40192,7 +40047,7 @@
     "evolution": {
       "next": [
         [
-          "1148",
+          "1143",
           "Level 50"
         ]
       ]
@@ -40215,7 +40070,7 @@
     }
   },
   {
-    "id": "1148",
+    "id": "1143",
     "name": "Drakloak",
     "type": [
       "Dragon",
@@ -40233,7 +40088,7 @@
     "evolution": {
       "next": [
         [
-          "1149",
+          "1144",
           "Level 60"
         ]
       ]
@@ -40256,7 +40111,7 @@
     }
   },
   {
-    "id": "1149",
+    "id": "1144",
     "name": "Dragapult",
     "type": [
       "Dragon",
@@ -40290,7 +40145,7 @@
     }
   },
   {
-    "id": "1150",
+    "id": "1145",
     "name": "Zacian",
     "type": [
       "Fairy"
@@ -40322,7 +40177,7 @@
     }
   },
   {
-    "id": "1151",
+    "id": "1146",
     "name": "Zacian-Crowned",
     "type": [
       "Fairy",
@@ -40355,7 +40210,7 @@
     }
   },
   {
-    "id": "1152",
+    "id": "1147",
     "name": "Zamazenta-Hero",
     "type": [
       "Fighting"
@@ -40387,7 +40242,7 @@
     }
   },
   {
-    "id": "1153",
+    "id": "1148",
     "name": "Zamazenta-Crowned",
     "type": [
       "Fighting",
@@ -40420,7 +40275,7 @@
     }
   },
   {
-    "id": "1154",
+    "id": "1149",
     "name": "Eternatus",
     "type": [
       "Poison",
@@ -40453,7 +40308,7 @@
     }
   },
   {
-    "id": "1155",
+    "id": "1150",
     "name": "Kubfu",
     "type": [
       "Fighting"
@@ -40485,7 +40340,7 @@
     }
   },
   {
-    "id": "1156",
+    "id": "1151",
     "name": "Urshifu-Single-Strike",
     "type": [
       "Fighting",
@@ -40518,7 +40373,7 @@
     }
   },
   {
-    "id": "1157",
+    "id": "1152",
     "name": "Urshifu-Rapid-Strike",
     "type": [
       "Fighting",
@@ -40551,7 +40406,7 @@
     }
   },
   {
-    "id": "1158",
+    "id": "1153",
     "name": "Zarude",
     "type": [
       "Dark",
@@ -40584,7 +40439,7 @@
     }
   },
   {
-    "id": "1159",
+    "id": "1154",
     "name": "Zarude",
     "type": [
       "Dark",
@@ -40617,7 +40472,7 @@
     }
   },
   {
-    "id": "1160",
+    "id": "1155",
     "name": "Regieleki",
     "type": [
       "Electric"
@@ -40649,7 +40504,7 @@
     }
   },
   {
-    "id": "1161",
+    "id": "1156",
     "name": "Regidrago",
     "type": [
       "Dragon"
@@ -40681,7 +40536,7 @@
     }
   },
   {
-    "id": "1162",
+    "id": "1157",
     "name": "Glastrier",
     "type": [
       "Ice"
@@ -40713,7 +40568,7 @@
     }
   },
   {
-    "id": "1163",
+    "id": "1158",
     "name": "Spectrier",
     "type": [
       "Ghost"
@@ -40745,7 +40600,7 @@
     }
   },
   {
-    "id": "1164",
+    "id": "1159",
     "name": "Calyrex",
     "type": [
       "Psychic",
@@ -40778,7 +40633,7 @@
     }
   },
   {
-    "id": "1165",
+    "id": "1160",
     "name": "Calyrex-Ice",
     "type": [
       "Psychic",
@@ -40811,7 +40666,7 @@
     }
   },
   {
-    "id": "1166",
+    "id": "1161",
     "name": "Calyrex",
     "type": [
       "Psychic",
@@ -40844,7 +40699,7 @@
     }
   },
   {
-    "id": "1167",
+    "id": "1162",
     "name": "Enamorus",
     "type": [
       "Fairy",
@@ -40877,7 +40732,7 @@
     }
   },
   {
-    "id": "1168",
+    "id": "1163",
     "name": "Enamorus-Therian",
     "type": [
       "Fairy",
@@ -40910,7 +40765,7 @@
     }
   },
   {
-    "id": "1169",
+    "id": "1164",
     "name": "Sprigatito",
     "type": [
       "Grass"
@@ -40927,7 +40782,7 @@
     "evolution": {
       "next": [
         [
-          "1170",
+          "1165",
           "Level 16"
         ]
       ]
@@ -40950,7 +40805,7 @@
     }
   },
   {
-    "id": "1170",
+    "id": "1165",
     "name": "Floragato",
     "type": [
       "Grass"
@@ -40967,7 +40822,7 @@
     "evolution": {
       "next": [
         [
-          "1171",
+          "1166",
           "Level 36"
         ]
       ]
@@ -40990,7 +40845,7 @@
     }
   },
   {
-    "id": "1171",
+    "id": "1166",
     "name": "Meowscarada",
     "type": [
       "Grass",
@@ -41024,7 +40879,7 @@
     }
   },
   {
-    "id": "1172",
+    "id": "1167",
     "name": "Fuecoco",
     "type": [
       "Fire"
@@ -41041,7 +40896,7 @@
     "evolution": {
       "next": [
         [
-          "1173",
+          "1168",
           "Level 16"
         ]
       ]
@@ -41063,7 +40918,7 @@
     }
   },
   {
-    "id": "1173",
+    "id": "1168",
     "name": "Crocalor",
     "type": [
       "Fire"
@@ -41080,7 +40935,7 @@
     "evolution": {
       "next": [
         [
-          "1174",
+          "1169",
           "Level 36"
         ]
       ]
@@ -41102,7 +40957,7 @@
     }
   },
   {
-    "id": "1174",
+    "id": "1169",
     "name": "Skeledirge",
     "type": [
       "Fire",
@@ -41135,7 +40990,7 @@
     }
   },
   {
-    "id": "1175",
+    "id": "1170",
     "name": "Quaxly",
     "type": [
       "Water"
@@ -41152,7 +41007,7 @@
     "evolution": {
       "next": [
         [
-          "1176",
+          "1171",
           "Level 16"
         ]
       ]
@@ -41175,7 +41030,7 @@
     }
   },
   {
-    "id": "1176",
+    "id": "1171",
     "name": "Quaxwell",
     "type": [
       "Water"
@@ -41192,7 +41047,7 @@
     "evolution": {
       "next": [
         [
-          "1177",
+          "1172",
           "Level 36"
         ]
       ]
@@ -41215,7 +41070,7 @@
     }
   },
   {
-    "id": "1177",
+    "id": "1172",
     "name": "Quaquaval",
     "type": [
       "Water",
@@ -41249,7 +41104,7 @@
     }
   },
   {
-    "id": "1178",
+    "id": "1173",
     "name": "Lechonk",
     "type": [
       "Normal"
@@ -41281,7 +41136,7 @@
     }
   },
   {
-    "id": "1179",
+    "id": "1174",
     "name": "Oinkologne",
     "type": [
       "Normal"
@@ -41313,7 +41168,7 @@
     }
   },
   {
-    "id": "1180",
+    "id": "1175",
     "name": "Oinkologne-F",
     "type": [
       "Normal"
@@ -41345,7 +41200,7 @@
     }
   },
   {
-    "id": "1181",
+    "id": "1176",
     "name": "Tarountula",
     "type": [
       "Bug"
@@ -41362,7 +41217,7 @@
     "evolution": {
       "next": [
         [
-          "1182",
+          "1177",
           "Level 15"
         ]
       ]
@@ -41384,7 +41239,7 @@
     }
   },
   {
-    "id": "1182",
+    "id": "1177",
     "name": "Spidops",
     "type": [
       "Bug"
@@ -41416,7 +41271,7 @@
     }
   },
   {
-    "id": "1183",
+    "id": "1178",
     "name": "Nymble",
     "type": [
       "Bug"
@@ -41433,7 +41288,7 @@
     "evolution": {
       "next": [
         [
-          "1184",
+          "1179",
           "Level 24"
         ]
       ]
@@ -41455,7 +41310,7 @@
     }
   },
   {
-    "id": "1184",
+    "id": "1179",
     "name": "Lokix",
     "type": [
       "Bug",
@@ -41488,7 +41343,7 @@
     }
   },
   {
-    "id": "1185",
+    "id": "1180",
     "name": "Pawmi",
     "type": [
       "Electric"
@@ -41505,7 +41360,7 @@
     "evolution": {
       "next": [
         [
-          "1186",
+          "1181",
           "Level 18"
         ]
       ]
@@ -41527,7 +41382,7 @@
     }
   },
   {
-    "id": "1186",
+    "id": "1181",
     "name": "Pawmo",
     "type": [
       "Electric",
@@ -41545,7 +41400,7 @@
     "evolution": {
       "next": [
         [
-          "1187",
+          "1182",
           "EVO_OVERWORLD_STEPS",
           "1000"
         ]
@@ -41568,7 +41423,7 @@
     }
   },
   {
-    "id": "1187",
+    "id": "1182",
     "name": "Pawmot",
     "type": [
       "Electric",
@@ -41601,7 +41456,7 @@
     }
   },
   {
-    "id": "1188",
+    "id": "1183",
     "name": "Tandemaus",
     "type": [
       "Normal"
@@ -41634,7 +41489,7 @@
     }
   },
   {
-    "id": "1189",
+    "id": "1184",
     "name": "Maushold",
     "type": [
       "Normal"
@@ -41667,7 +41522,7 @@
     }
   },
   {
-    "id": "1190",
+    "id": "1185",
     "name": "Maushold",
     "type": [
       "Normal"
@@ -41700,7 +41555,7 @@
     }
   },
   {
-    "id": "1191",
+    "id": "1186",
     "name": "Fidough",
     "type": [
       "Fairy"
@@ -41717,7 +41572,7 @@
     "evolution": {
       "next": [
         [
-          "1192",
+          "1187",
           "Level 26"
         ]
       ]
@@ -41740,7 +41595,7 @@
     }
   },
   {
-    "id": "1192",
+    "id": "1187",
     "name": "Dachsbun",
     "type": [
       "Fairy"
@@ -41773,7 +41628,7 @@
     }
   },
   {
-    "id": "1193",
+    "id": "1188",
     "name": "Smoliv",
     "type": [
       "Grass",
@@ -41791,7 +41646,7 @@
     "evolution": {
       "next": [
         [
-          "1194",
+          "1189",
           "Level 25"
         ]
       ]
@@ -41813,7 +41668,7 @@
     }
   },
   {
-    "id": "1194",
+    "id": "1189",
     "name": "Dolliv",
     "type": [
       "Grass",
@@ -41831,7 +41686,7 @@
     "evolution": {
       "next": [
         [
-          "1195",
+          "1190",
           "Level 35"
         ]
       ]
@@ -41853,7 +41708,7 @@
     }
   },
   {
-    "id": "1195",
+    "id": "1190",
     "name": "Arboliva",
     "type": [
       "Grass",
@@ -41886,7 +41741,7 @@
     }
   },
   {
-    "id": "1196",
+    "id": "1191",
     "name": "Squawkabilly",
     "type": [
       "Normal",
@@ -41919,7 +41774,7 @@
     }
   },
   {
-    "id": "1197",
+    "id": "1192",
     "name": "Squawkabilly-Blue",
     "type": [
       "Normal",
@@ -41952,7 +41807,7 @@
     }
   },
   {
-    "id": "1198",
+    "id": "1193",
     "name": "Squawkabilly-Yellow",
     "type": [
       "Normal",
@@ -41985,7 +41840,7 @@
     }
   },
   {
-    "id": "1199",
+    "id": "1194",
     "name": "Squawkabilly-White",
     "type": [
       "Normal",
@@ -42018,7 +41873,7 @@
     }
   },
   {
-    "id": "1200",
+    "id": "1195",
     "name": "Nacli",
     "type": [
       "Rock"
@@ -42035,7 +41890,7 @@
     "evolution": {
       "next": [
         [
-          "1201",
+          "1196",
           "Level 24"
         ]
       ]
@@ -42057,7 +41912,7 @@
     }
   },
   {
-    "id": "1201",
+    "id": "1196",
     "name": "Naclstack",
     "type": [
       "Rock"
@@ -42074,7 +41929,7 @@
     "evolution": {
       "next": [
         [
-          "1202",
+          "1197",
           "Level 38"
         ]
       ]
@@ -42096,7 +41951,7 @@
     }
   },
   {
-    "id": "1202",
+    "id": "1197",
     "name": "Garganacl",
     "type": [
       "Rock"
@@ -42128,7 +41983,7 @@
     }
   },
   {
-    "id": "1203",
+    "id": "1198",
     "name": "Charcadet",
     "type": [
       "Fire"
@@ -42159,7 +42014,7 @@
     }
   },
   {
-    "id": "1204",
+    "id": "1199",
     "name": "Armarouge",
     "type": [
       "Fire",
@@ -42192,7 +42047,7 @@
     }
   },
   {
-    "id": "1205",
+    "id": "1200",
     "name": "Ceruledge",
     "type": [
       "Fire",
@@ -42225,7 +42080,7 @@
     }
   },
   {
-    "id": "1206",
+    "id": "1201",
     "name": "Tadbulb",
     "type": [
       "Electric"
@@ -42242,7 +42097,7 @@
     "evolution": {
       "next": [
         [
-          "1207",
+          "1202",
           "EVO_ITEM",
           "ITEM_THUNDER_STONE"
         ]
@@ -42265,7 +42120,7 @@
     }
   },
   {
-    "id": "1207",
+    "id": "1202",
     "name": "Bellibolt",
     "type": [
       "Electric"
@@ -42297,7 +42152,7 @@
     }
   },
   {
-    "id": "1208",
+    "id": "1203",
     "name": "Wattrel",
     "type": [
       "Electric",
@@ -42315,7 +42170,7 @@
     "evolution": {
       "next": [
         [
-          "1209",
+          "1204",
           "Level 25"
         ]
       ]
@@ -42338,7 +42193,7 @@
     }
   },
   {
-    "id": "1209",
+    "id": "1204",
     "name": "Kilowattrel",
     "type": [
       "Electric",
@@ -42372,7 +42227,7 @@
     }
   },
   {
-    "id": "1210",
+    "id": "1205",
     "name": "Maschiff",
     "type": [
       "Dark"
@@ -42389,7 +42244,7 @@
     "evolution": {
       "next": [
         [
-          "1211",
+          "1206",
           "Level 30"
         ]
       ]
@@ -42411,7 +42266,7 @@
     }
   },
   {
-    "id": "1211",
+    "id": "1206",
     "name": "Mabosstiff",
     "type": [
       "Dark"
@@ -42443,7 +42298,7 @@
     }
   },
   {
-    "id": "1212",
+    "id": "1207",
     "name": "Shroodle",
     "type": [
       "Poison",
@@ -42461,7 +42316,7 @@
     "evolution": {
       "next": [
         [
-          "1213",
+          "1208",
           "Level 28"
         ]
       ]
@@ -42483,7 +42338,7 @@
     }
   },
   {
-    "id": "1213",
+    "id": "1208",
     "name": "Grafaiai",
     "type": [
       "Poison",
@@ -42516,7 +42371,7 @@
     }
   },
   {
-    "id": "1214",
+    "id": "1209",
     "name": "Bramblin",
     "type": [
       "Grass",
@@ -42534,7 +42389,7 @@
     "evolution": {
       "next": [
         [
-          "1215",
+          "1210",
           "EVO_OVERWORLD_STEPS",
           "1000"
         ]
@@ -42557,7 +42412,7 @@
     }
   },
   {
-    "id": "1215",
+    "id": "1210",
     "name": "Brambleghast",
     "type": [
       "Grass",
@@ -42590,7 +42445,7 @@
     }
   },
   {
-    "id": "1216",
+    "id": "1211",
     "name": "Toedscool",
     "type": [
       "Ground",
@@ -42608,7 +42463,7 @@
     "evolution": {
       "next": [
         [
-          "1217",
+          "1212",
           "Level 30"
         ]
       ]
@@ -42630,7 +42485,7 @@
     }
   },
   {
-    "id": "1217",
+    "id": "1212",
     "name": "Toedscruel",
     "type": [
       "Ground",
@@ -42663,7 +42518,7 @@
     }
   },
   {
-    "id": "1218",
+    "id": "1213",
     "name": "Klawf",
     "type": [
       "Rock"
@@ -42695,7 +42550,7 @@
     }
   },
   {
-    "id": "1219",
+    "id": "1214",
     "name": "Capsakid",
     "type": [
       "Grass"
@@ -42712,7 +42567,7 @@
     "evolution": {
       "next": [
         [
-          "1220",
+          "1215",
           "EVO_ITEM",
           "ITEM_FIRE_STONE"
         ]
@@ -42735,7 +42590,7 @@
     }
   },
   {
-    "id": "1220",
+    "id": "1215",
     "name": "Scovillain",
     "type": [
       "Grass",
@@ -42768,7 +42623,7 @@
     }
   },
   {
-    "id": "1221",
+    "id": "1216",
     "name": "Rellor",
     "type": [
       "Bug"
@@ -42785,7 +42640,7 @@
     "evolution": {
       "next": [
         [
-          "1222",
+          "1217",
           "EVO_OVERWORLD_STEPS",
           "1000"
         ]
@@ -42808,7 +42663,7 @@
     }
   },
   {
-    "id": "1222",
+    "id": "1217",
     "name": "Rabsca",
     "type": [
       "Bug",
@@ -42841,7 +42696,7 @@
     }
   },
   {
-    "id": "1223",
+    "id": "1218",
     "name": "Flittle",
     "type": [
       "Psychic"
@@ -42858,7 +42713,7 @@
     "evolution": {
       "next": [
         [
-          "1224",
+          "1219",
           "Level 35"
         ]
       ]
@@ -42880,7 +42735,7 @@
     }
   },
   {
-    "id": "1224",
+    "id": "1219",
     "name": "Espathra",
     "type": [
       "Psychic"
@@ -42912,7 +42767,7 @@
     }
   },
   {
-    "id": "1225",
+    "id": "1220",
     "name": "Tinkatink",
     "type": [
       "Fairy",
@@ -42930,7 +42785,7 @@
     "evolution": {
       "next": [
         [
-          "1226",
+          "1221",
           "Level 24"
         ]
       ]
@@ -42952,7 +42807,7 @@
     }
   },
   {
-    "id": "1226",
+    "id": "1221",
     "name": "Tinkatuff",
     "type": [
       "Fairy",
@@ -42970,7 +42825,7 @@
     "evolution": {
       "next": [
         [
-          "1227",
+          "1222",
           "Level 38"
         ]
       ]
@@ -42992,7 +42847,7 @@
     }
   },
   {
-    "id": "1227",
+    "id": "1222",
     "name": "Tinkaton",
     "type": [
       "Fairy",
@@ -43025,7 +42880,7 @@
     }
   },
   {
-    "id": "1228",
+    "id": "1223",
     "name": "Wiglett",
     "type": [
       "Water"
@@ -43042,7 +42897,7 @@
     "evolution": {
       "next": [
         [
-          "1229",
+          "1224",
           "Level 26"
         ]
       ]
@@ -43064,7 +42919,7 @@
     }
   },
   {
-    "id": "1229",
+    "id": "1224",
     "name": "Wugtrio",
     "type": [
       "Water"
@@ -43096,7 +42951,7 @@
     }
   },
   {
-    "id": "1230",
+    "id": "1225",
     "name": "Bombirdier",
     "type": [
       "Flying",
@@ -43129,7 +42984,7 @@
     }
   },
   {
-    "id": "1231",
+    "id": "1226",
     "name": "Finizen",
     "type": [
       "Water"
@@ -43146,7 +43001,7 @@
     "evolution": {
       "next": [
         [
-          "1232",
+          "1227",
           "Level 38"
         ]
       ]
@@ -43169,7 +43024,7 @@
     }
   },
   {
-    "id": "1232",
+    "id": "1227",
     "name": "Palafin",
     "type": [
       "Water"
@@ -43202,7 +43057,7 @@
     }
   },
   {
-    "id": "1233",
+    "id": "1228",
     "name": "Palafin-Hero",
     "type": [
       "Water"
@@ -43235,7 +43090,7 @@
     }
   },
   {
-    "id": "1234",
+    "id": "1229",
     "name": "Varoom",
     "type": [
       "Steel",
@@ -43253,7 +43108,7 @@
     "evolution": {
       "next": [
         [
-          "1235",
+          "1230",
           "Level 40"
         ]
       ]
@@ -43275,7 +43130,7 @@
     }
   },
   {
-    "id": "1235",
+    "id": "1230",
     "name": "Revavroom",
     "type": [
       "Steel",
@@ -43308,7 +43163,7 @@
     }
   },
   {
-    "id": "1236",
+    "id": "1231",
     "name": "Cyclizar",
     "type": [
       "Dragon",
@@ -43341,7 +43196,7 @@
     }
   },
   {
-    "id": "1237",
+    "id": "1232",
     "name": "Orthworm",
     "type": [
       "Steel"
@@ -43373,7 +43228,7 @@
     }
   },
   {
-    "id": "1238",
+    "id": "1233",
     "name": "Glimmet",
     "type": [
       "Rock",
@@ -43391,7 +43246,7 @@
     "evolution": {
       "next": [
         [
-          "1239",
+          "1234",
           "Level 35"
         ]
       ]
@@ -43413,7 +43268,7 @@
     }
   },
   {
-    "id": "1239",
+    "id": "1234",
     "name": "Glimmora",
     "type": [
       "Rock",
@@ -43446,7 +43301,7 @@
     }
   },
   {
-    "id": "1240",
+    "id": "1235",
     "name": "Greavard",
     "type": [
       "Ghost"
@@ -43463,7 +43318,7 @@
     "evolution": {
       "next": [
         [
-          "1241",
+          "1236",
           "EVO_LEVEL_NIGHT",
           "30"
         ]
@@ -43486,7 +43341,7 @@
     }
   },
   {
-    "id": "1241",
+    "id": "1236",
     "name": "Houndstone",
     "type": [
       "Ghost"
@@ -43518,7 +43373,7 @@
     }
   },
   {
-    "id": "1242",
+    "id": "1237",
     "name": "Flamigo",
     "type": [
       "Flying",
@@ -43551,7 +43406,7 @@
     }
   },
   {
-    "id": "1243",
+    "id": "1238",
     "name": "Cetoddle",
     "type": [
       "Ice"
@@ -43568,7 +43423,7 @@
     "evolution": {
       "next": [
         [
-          "1244",
+          "1239",
           "EVO_ITEM",
           "ITEM_ICE_STONE"
         ]
@@ -43591,7 +43446,7 @@
     }
   },
   {
-    "id": "1244",
+    "id": "1239",
     "name": "Cetitan",
     "type": [
       "Ice"
@@ -43623,7 +43478,7 @@
     }
   },
   {
-    "id": "1245",
+    "id": "1240",
     "name": "Veluza",
     "type": [
       "Water",
@@ -43656,7 +43511,7 @@
     }
   },
   {
-    "id": "1246",
+    "id": "1241",
     "name": "Dondozo",
     "type": [
       "Water"
@@ -43688,7 +43543,7 @@
     }
   },
   {
-    "id": "1247",
+    "id": "1242",
     "name": "Tatsugiri",
     "type": [
       "Dragon",
@@ -43721,7 +43576,7 @@
     }
   },
   {
-    "id": "1248",
+    "id": "1243",
     "name": "Tatsugiri-Droopy",
     "type": [
       "Dragon",
@@ -43754,7 +43609,7 @@
     }
   },
   {
-    "id": "1249",
+    "id": "1244",
     "name": "Tatsugiri-Stretchy",
     "type": [
       "Dragon",
@@ -43787,7 +43642,7 @@
     }
   },
   {
-    "id": "1250",
+    "id": "1245",
     "name": "Great Tusk",
     "type": [
       "Ground",
@@ -43820,7 +43675,7 @@
     }
   },
   {
-    "id": "1251",
+    "id": "1246",
     "name": "Scream Tail",
     "type": [
       "Fairy",
@@ -43853,7 +43708,7 @@
     }
   },
   {
-    "id": "1252",
+    "id": "1247",
     "name": "Brute Bonnet",
     "type": [
       "Grass",
@@ -43886,7 +43741,7 @@
     }
   },
   {
-    "id": "1253",
+    "id": "1248",
     "name": "Flutter Mane",
     "type": [
       "Ghost",
@@ -43919,7 +43774,7 @@
     }
   },
   {
-    "id": "1254",
+    "id": "1249",
     "name": "Slither Wing",
     "type": [
       "Bug",
@@ -43952,7 +43807,7 @@
     }
   },
   {
-    "id": "1255",
+    "id": "1250",
     "name": "Sandy Shocks",
     "type": [
       "Electric",
@@ -43985,7 +43840,7 @@
     }
   },
   {
-    "id": "1256",
+    "id": "1251",
     "name": "Iron Treads",
     "type": [
       "Ground",
@@ -44018,7 +43873,7 @@
     }
   },
   {
-    "id": "1257",
+    "id": "1252",
     "name": "Iron Bundle",
     "type": [
       "Ice",
@@ -44051,7 +43906,7 @@
     }
   },
   {
-    "id": "1258",
+    "id": "1253",
     "name": "Iron Hands",
     "type": [
       "Fighting",
@@ -44084,7 +43939,7 @@
     }
   },
   {
-    "id": "1259",
+    "id": "1254",
     "name": "Iron Jugulis",
     "type": [
       "Dark",
@@ -44117,7 +43972,7 @@
     }
   },
   {
-    "id": "1260",
+    "id": "1255",
     "name": "Iron Moth",
     "type": [
       "Fire",
@@ -44150,7 +44005,7 @@
     }
   },
   {
-    "id": "1261",
+    "id": "1256",
     "name": "Iron Thorns",
     "type": [
       "Rock",
@@ -44183,7 +44038,7 @@
     }
   },
   {
-    "id": "1262",
+    "id": "1257",
     "name": "Frigibax",
     "type": [
       "Dragon",
@@ -44201,7 +44056,7 @@
     "evolution": {
       "next": [
         [
-          "1263",
+          "1258",
           "Level 35"
         ]
       ]
@@ -44224,7 +44079,7 @@
     }
   },
   {
-    "id": "1263",
+    "id": "1258",
     "name": "Arctibax",
     "type": [
       "Dragon",
@@ -44242,7 +44097,7 @@
     "evolution": {
       "next": [
         [
-          "1264",
+          "1259",
           "Level 54"
         ]
       ]
@@ -44265,7 +44120,7 @@
     }
   },
   {
-    "id": "1264",
+    "id": "1259",
     "name": "Baxcalibur",
     "type": [
       "Dragon",
@@ -44299,7 +44154,7 @@
     }
   },
   {
-    "id": "1265",
+    "id": "1260",
     "name": "Gimmighoul",
     "type": [
       "Ghost"
@@ -44316,7 +44171,7 @@
     "evolution": {
       "next": [
         [
-          "1267",
+          "1262",
           "EVO_ITEM_COUNT_999",
           "ITEM_GIMMIGHOUL_COIN"
         ]
@@ -44339,7 +44194,7 @@
     }
   },
   {
-    "id": "1266",
+    "id": "1261",
     "name": "Gimmighoul-Roaming",
     "type": [
       "Ghost"
@@ -44356,7 +44211,7 @@
     "evolution": {
       "next": [
         [
-          "1267",
+          "1262",
           "EVO_ITEM_COUNT_999",
           "ITEM_GIMMIGHOUL_COIN"
         ]
@@ -44379,7 +44234,7 @@
     }
   },
   {
-    "id": "1267",
+    "id": "1262",
     "name": "Gholdengo",
     "type": [
       "Steel",
@@ -44412,7 +44267,7 @@
     }
   },
   {
-    "id": "1268",
+    "id": "1263",
     "name": "Wo-Chien",
     "type": [
       "Dark",
@@ -44445,7 +44300,7 @@
     }
   },
   {
-    "id": "1269",
+    "id": "1264",
     "name": "Chien-Pao",
     "type": [
       "Dark",
@@ -44478,7 +44333,7 @@
     }
   },
   {
-    "id": "1270",
+    "id": "1265",
     "name": "Ting-Lu",
     "type": [
       "Dark",
@@ -44511,7 +44366,7 @@
     }
   },
   {
-    "id": "1271",
+    "id": "1266",
     "name": "Chi-Yu",
     "type": [
       "Dark",
@@ -44544,7 +44399,7 @@
     }
   },
   {
-    "id": "1272",
+    "id": "1267",
     "name": "Roaring Moon",
     "type": [
       "Dragon",
@@ -44577,7 +44432,7 @@
     }
   },
   {
-    "id": "1273",
+    "id": "1268",
     "name": "Iron Valiant",
     "type": [
       "Fairy",
@@ -44610,7 +44465,7 @@
     }
   },
   {
-    "id": "1274",
+    "id": "1269",
     "name": "Koraidon",
     "type": [
       "Fighting",
@@ -44643,7 +44498,7 @@
     }
   },
   {
-    "id": "1275",
+    "id": "1270",
     "name": "Miraidon",
     "type": [
       "Electric",
@@ -44676,7 +44531,7 @@
     }
   },
   {
-    "id": "1276",
+    "id": "1271",
     "name": "Walking Wake",
     "type": [
       "Water",
@@ -44709,7 +44564,7 @@
     }
   },
   {
-    "id": "1277",
+    "id": "1272",
     "name": "Iron Leaves",
     "type": [
       "Grass",
@@ -44742,7 +44597,7 @@
     }
   },
   {
-    "id": "1278",
+    "id": "1273",
     "name": "Poltchageist",
     "type": [
       "Grass",
@@ -44760,7 +44615,7 @@
     "evolution": {
       "next": [
         [
-          "1280",
+          "1275",
           "EVO_ITEM",
           "ITEM_UNREMARKABLE_TEACUP"
         ]
@@ -44784,7 +44639,7 @@
     }
   },
   {
-    "id": "1279",
+    "id": "1274",
     "name": "Poltchageist-Artisan",
     "type": [
       "Grass",
@@ -44802,7 +44657,7 @@
     "evolution": {
       "next": [
         [
-          "1281",
+          "1276",
           "EVO_ITEM",
           "ITEM_MASTERPIECE_TEACUP"
         ]
@@ -44826,7 +44681,7 @@
     }
   },
   {
-    "id": "1280",
+    "id": "1275",
     "name": "Sinistcha",
     "type": [
       "Grass",
@@ -44860,7 +44715,7 @@
     }
   },
   {
-    "id": "1281",
+    "id": "1276",
     "name": "Sinistcha-Masterpiece",
     "type": [
       "Grass",
@@ -44894,7 +44749,7 @@
     }
   },
   {
-    "id": "1282",
+    "id": "1277",
     "name": "Okidogi",
     "type": [
       "Poison",
@@ -44927,7 +44782,7 @@
     }
   },
   {
-    "id": "1283",
+    "id": "1278",
     "name": "Munkidori",
     "type": [
       "Poison",
@@ -44960,7 +44815,7 @@
     }
   },
   {
-    "id": "1284",
+    "id": "1279",
     "name": "Fezandipiti",
     "type": [
       "Poison",
@@ -44993,7 +44848,7 @@
     }
   },
   {
-    "id": "1285",
+    "id": "1280",
     "name": "Ogerpon",
     "type": [
       "Grass",
@@ -45025,7 +44880,7 @@
     }
   },
   {
-    "id": "1286",
+    "id": "1281",
     "name": "Ogerpon-Wellspring",
     "type": [
       "Grass",
@@ -45057,7 +44912,7 @@
     }
   },
   {
-    "id": "1287",
+    "id": "1282",
     "name": "Ogerpon-Hearthflame",
     "type": [
       "Grass",
@@ -45089,7 +44944,7 @@
     }
   },
   {
-    "id": "1288",
+    "id": "1283",
     "name": "Ogerpon-Cornerstone",
     "type": [
       "Grass",
@@ -45121,7 +44976,7 @@
     }
   },
   {
-    "id": "1289",
+    "id": "1284",
     "name": "Gouging Fire",
     "type": [
       "Fire",
@@ -45154,7 +45009,7 @@
     }
   },
   {
-    "id": "1290",
+    "id": "1285",
     "name": "Raging Bolt",
     "type": [
       "Electric",
@@ -45187,7 +45042,7 @@
     }
   },
   {
-    "id": "1291",
+    "id": "1286",
     "name": "Iron Boulder",
     "type": [
       "Rock",
@@ -45220,7 +45075,7 @@
     }
   },
   {
-    "id": "1292",
+    "id": "1287",
     "name": "Iron Crown",
     "type": [
       "Steel",
@@ -45253,7 +45108,7 @@
     }
   },
   {
-    "id": "1293",
+    "id": "1288",
     "name": "Terapagos",
     "type": [
       "Normal"
@@ -45285,7 +45140,7 @@
     }
   },
   {
-    "id": "1294",
+    "id": "1289",
     "name": "Terapagos-Terastal",
     "type": [
       "Normal"
@@ -45317,7 +45172,7 @@
     }
   },
   {
-    "id": "1295",
+    "id": "1290",
     "name": "Terapagos-Stellar",
     "type": [
       "Normal"
@@ -45349,7 +45204,7 @@
     }
   },
   {
-    "id": "1296",
+    "id": "1291",
     "name": "Pecharunt",
     "type": [
       "Poison",
