@@ -56,7 +56,6 @@ watch(selectedItem, (newVal) => {
         size="xl"
         icon="i-lucide-search"
         :loading="isLoading"
-        @change="test"
       >
         <template #item-leading="{ item }">
           <UIcon v-if="item.type === 'route'" class="text-green-500" name="i-lucide-map" />
