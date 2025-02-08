@@ -1,18 +1,20 @@
 <template>
   <div class="flex items-center gap-2 relative">
-    <p class="w-28 text-right">
-      {{ text }}
-    </p>
-    <div class="w-128 h-6 bg-gray-200 rounded-full dark:bg-gray-700">
+    <div class="flex items-center gap-2">
+      <p class="w-28 text-right">
+        {{ text }}
+      </p>
+      <p class="w-10 text-right text-sm font-thin">
+        {{ currentValue }}
+      </p>
+    </div>
+    <div class="w-70 h-5 rounded-full">
       <div
-        class="h-6 rounded-full"
+        class="h-5 rounded-full"
         :class="getColorClass(currentValue)"
         :style="{ width: computeProgressWidth(currentValue) }"
       />
     </div>
-    <p class="absolute right-2 text-xs">
-      {{ currentValue }}
-    </p>
   </div>
 </template>
 

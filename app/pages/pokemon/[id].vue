@@ -9,19 +9,32 @@
         <p class="text-sm opacity-50 mt-1">
           {{ currentMon.id }}
         </p>
+        <div class="flex gap-1 items-center">
+          <PokemonType v-if="currentMon.type[0]" :type="currentMon.type[0]" />
+          <PokemonType v-if="currentMon.type[1] && currentMon.type[1] !== currentMon.type[0]" :type="currentMon.type[1]" />
+        </div>
       </div>
       <div class="flex flex-col gap-5">
         <div class="flex gap-6 items-center">
           <div>
             <NuxtImg :src="`/sprites/${currentMon.name.toLowerCase()}.png`" placeholder />
-            <p class="text-sm font-bold">
-              TYPE
-            </p>
-            <div class="flex gap-1">
-              <PokemonType v-if="currentMon.type[0]" :type="currentMon.type[0]" />
-              <PokemonType v-if="currentMon.type[1] && currentMon.type[1] !== currentMon.type[0]" :type="currentMon.type[1]" />
-            </div>
           </div>
+        </div>
+        <div class="grid grid-cols-2 space-x-6">
+          <div>
+            <p class="text-sm font-bold">
+              BASE STATS
+            </p>
+            <PokemonBaseStats :stats="currentMon.base" />
+          </div>
+          <div>
+            <p class="text-sm font-bold">
+              LEVEL-UP MOVES (WIP)
+            </p>
+            <LevelUpMoveTable />
+          </div>
+        </div>
+        <div class="flex gap-3 items-center">
           <div>
             <p class="text-sm font-bold">
               ABILITIES
@@ -60,20 +73,6 @@
                 {{ currentMon.evolution.next[0][1] }}
               </p>
             </div>
-          </div>
-        </div>
-        <div class="grid grid-cols-2 space-x-6">
-          <div>
-            <p class="text-sm font-bold">
-              BASE STATS
-            </p>
-            <PokemonBaseStats :stats="currentMon.base" />
-          </div>
-          <div>
-            <p class="text-sm font-bold">
-              LEVEL-UP MOVES (WIP)
-            </p>
-            <LevelUpMoveTable />
           </div>
         </div>
       </div>
